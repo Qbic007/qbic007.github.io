@@ -1,0 +1,20 @@
+@font-face { 
+    font-family: "gothampro";
+    src: url(/qbic007.github.io/coworking/fonts/GothamPro-Bold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "gothampro";
+    src: url(/qbic007.github.io/coworking/fonts/GothamPro-Light.woff) format("woff");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "gothampro";
+    src: url(/qbic007.github.io/coworking/fonts/GothamPro-LightItalic.woff) format("woff");
+    font-weight: lighter;
+    font-style: italic;
+}
