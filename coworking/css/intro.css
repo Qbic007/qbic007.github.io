@@ -1,5 +1,5 @@
 @font-face { 
-    font-family: "gothampro";
+    font-family: "GothamPro";
     src: url(/qbic007.github.io/coworking/fonts/GothamPro-Bold.woff) format("woff");
     font-weight: bold;
     font-style: normal;
@@ -30,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "gothampro";
+    font-family: GothamPro, sans-serif;
     font-weight: bold;
     font-size: 12px;
     color: #ec1e79;

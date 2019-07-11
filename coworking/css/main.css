@@ -1,20 +1,90 @@
 @font-face { 
-    font-family: "gothampro";
+    font-family: "OpenSansBold";
+    src: url(/qbic007.github.io/coworking/fonts/OpenSans-Bold.woff) format("woff");
+}
+
+@font-face { 
+    font-family: "GothamPro";
     src: url(/qbic007.github.io/coworking/fonts/GothamPro-Bold.woff) format("woff");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face { 
-    font-family: "gothampro";
+    font-family: "GothamPro";
     src: url(/qbic007.github.io/coworking/fonts/GothamPro-Light.woff) format("woff");
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face { 
-    font-family: "gothampro";
+    font-family: "GothamPro";
     src: url(/qbic007.github.io/coworking/fonts/GothamPro-LightItalic.woff) format("woff");
     font-weight: lighter;
     font-style: italic;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #27273e;
+}
+
+.header-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    height: 76px;
+    display: block;
+}
+
+.banner {
+    background-color: #27273e;
+    display: block;
+}
+
+.banner__image {
+    background-color: #27273e;
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-left: 19px;
+    margin-top: 13px;
+    position: absolute;
+}
+
+.contact-info {
+    float: right;
+    margin-top: 22px;
+    margin-right: 13px;
+}
+
+.contact-info__phone {
+    display: block;
+    font-family: GothamPro, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info__shedule-link {
+    display: block;
+    float: right;
+    font-family: OpenSansBold, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b12167;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #27273e;
+    height: 76px;
 }
