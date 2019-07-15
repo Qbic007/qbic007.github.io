@@ -316,3 +316,38 @@ h1, h2, h3, p {
     padding-top: 15px;
     text-align: right;
 }
+
+.socials__list {
+    padding-top: 8px;
+    margin-top: 0;
+    margin-right: 25px;
+}
+
+.socials__list-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat #d4d4d8 center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.socials__list-item--vk {
+    background-image: url(../img/vk.png);
+}
+
+.socials__list-item--fb {
+    background-image: url(../img/fb.png);
+}
+
+.socials__list-item--gg {
+    background-image: url(../img/google.png);
+}
+
+.socials__list-item--tw {
+    background-image: url(../img/twitter.png);
+}
+
+.socials__list-item--ml {
+    background-image: url(../img/mail.png);
+}
