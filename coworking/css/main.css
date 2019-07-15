@@ -1,9 +1,4 @@
 @font-face { 
-    font-family: "OpenSansBold";
-    src: url(/qbic007.github.io/coworking/fonts/OpenSans-Bold.woff) format("woff");
-}
-
-@font-face { 
     font-family: "GothamPro";
     src: url(/qbic007.github.io/coworking/fonts/GothamPro-Bold.woff) format("woff");
     font-weight: bold;
@@ -32,12 +27,13 @@ body {
     background-color: #27273e;
 }
 
-.header-container {
-    position: relative;
+.container {
     margin: 0 auto;
     width: 1100px;
-    height: 76px;
-    display: block;
+}
+
+.header__container {
+    height: 67px;
 }
 
 .banner {
@@ -46,8 +42,7 @@ body {
 }
 
 .banner__image {
-    background-color: #27273e;
-    width: 1100px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -55,21 +50,21 @@ body {
 .logo {
     float: left;
     margin-left: 19px;
-    margin-top: 13px;
-    position: absolute;
+    margin-top: 12px;
 }
 
 .contact-info {
     float: right;
-    margin-top: 22px;
-    margin-right: 13px;
+    margin-top: 14px;
+    margin-right: 19px;
 }
 
 .contact-info__phone {
     display: block;
-    font-family: GothamPro, sans-serif;
+    font: 21px/1.42 GothamPro, sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-weight: bold;
-    font-size: 21px;
+    text-align: right;
     color: #fff;
     text-decoration: none;
 }
@@ -77,10 +72,11 @@ body {
 .contact-info__shedule-link {
     display: block;
     float: right;
-    font-family: OpenSansBold, sans-serif;
+    font: 14px/1.42 "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-weight: bold;
-    font-size: 14px;
     color: #b12167;
+    letter-spacing: normal;
     text-decoration: underline;
 }
 

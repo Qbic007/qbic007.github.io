@@ -22,7 +22,6 @@ body {
 }
 
 .intro__button {
-    display: block;
     border: 3px #ec1e79 solid;
     margin-top: 29px;
     min-height: 38px;
