@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Воркадиум</title>
 </head>
 
@@ -29,9 +30,10 @@
         <aside class="aside">
             <nav class="left-menu">
                 <ul class="left-menu__list">
-                    <li class="left-menu__list-item">Главная</li>
-                    <li class="left-menu__list-item">Отзывы</li>
-                    <li class="left-menu__list-item">Тарифы</li>
+                    <li class="left-menu__list-item left-menu__list-item--main left-menu__list-item--active">Главная
+                    </li>
+                    <li class="left-menu__list-item left-menu__list-item--reviews">Отзывы</li>
+                    <li class="left-menu__list-item left-menu__list-item--tariffs">Тарифы</li>
                 </ul>
             </nav>
         </aside>
@@ -40,52 +42,58 @@
                 <h1 class="section-title">Особенности</h1>
                 <div class="features__container">
                     <div class="feature">
-                        <img src="" alt="" class="feature__icon">
+                        <div class="feature__icon-container">
+                            <img src="./img/flower.png" alt="Уникальность" class="feature__icon">
+                        </div>
                         <h3 class="feature__title">уникальность</h3>
                         <div class="feature__description">Создан для вашего комфортного отдыха
                             <ul class="feature__list">
                                 <li class="feature__list-item">
-                                    Кофе/чай
+                                    <span class="feature__list-item-text">Кофе/чай</span>
                                 </li>
                                 <li class="feature__list-item">
-                                    Шкаф (5 кг)
+                                    <span class="feature__list-item-text">Шкаф (5 кг)</span>
                                 </li>
                                 <li class="feature__list-item">
-                                    Рабочее место
+                                    <span class="feature__list-item-text">Рабочее место</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="feature">
-                        <img src="" alt="" class="feature__icon">
+                        <div class="feature__icon-container">
+                            <img src="./img/mark-as-favorite-star.png" alt="" class="feature__icon">
+                        </div>
                         <h3 class="feature__title">премиум-класс</h3>
-                        <div class="feature__description">Для любителей хороших впечатлений
+                        <div class="feature__description">Для любителей <br> хороших впечатлений
                             <ul class="feature__list">
                                 <li class="feature__list-item">
-                                    Обед+кофе
+                                    <span class="feature__list-item-text">Обед+кофе</span>
                                 </li>
                                 <li class="feature__list-item">
-                                    Шкаф (10 кг)
+                                    <span class="feature__list-item-text">Шкаф (10 кг)</span>
                                 </li>
                                 <li class="feature__list-item">
-                                    Детское кресло
+                                    <span class="feature__list-item-text">Детское кресло</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="feature">
-                        <img src="" alt="" class="feature__icon">
+                        <div class="feature__icon-container">
+                            <img src="./img/painter-palette.png" alt="" class="feature__icon">
+                        </div>
                         <h3 class="feature__title">лакшери-стулья</h3>
-                        <div class="feature__description">Всё самое лучшее и незабываемое
+                        <div class="feature__description">Всё самое лучшее <br> и незабываемое
                             <ul class="feature__list">
                                 <li class="feature__list-item">
-                                    Джакузи
+                                    <span class="feature__list-item-text">Джакузи</span></span>
                                 </li>
                                 <li class="feature__list-item">
-                                    Шкаф (15 кг)
+                                    <span class="feature__list-item-text">Шкаф (15 кг)</span>
                                 </li>
                                 <li class="feature__list-item">
-                                    Табуретка
+                                    <span class="feature__list-item-text">Табуретка</span>
                                 </li>
                             </ul>
                         </div>
@@ -93,37 +101,41 @@
                 </div>
             </section>
             <section class="news">
-                <h1 class="title">Последние новости</h1>
+                <h1 class="section-title">Последние новости</h1>
                 <div class="news__container">
                     <div class="new">
-                        <img src="" alt="" class="new__picture">
-                        <time class="new_datetime">12.10.2016</time>
-                        <h2 class="new__title">Чёрная дыра скидок!</h2>
-                        <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь
-                            в
-                            500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток.
-                            Коворкинг работает в формате 24/7.
-                            Используйте шкаф для хранения личных вещей. </p>
+                        <img src="./img/news_image.png" alt="" class="new__picture">
+                        <div class="new__container">
+                            <time class="new_datetime">12.10.2016</time>
+                            <h2 class="new__title">Чёрная дыра скидок!</h2>
+                            <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего
+                                лишь
+                                в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время
+                                суток.
+                                Коворкинг работает в формате 24/7.
+                                Используйте шкаф для хранения личных вещей. </p>
+                        </div>
                     </div>
                     <div class="new">
-                        <img src="" alt="" class="new__picture">
-                        <time class="new_datetime">12.10.2016</time>
-                        <h2 class="new__title">Чёрная дыра скидок!</h2>
-                        <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь
-                            в
-                            500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток.
-                            Коворкинг работает в формате 24/7.
-                            Используйте шкаф для хранения личных вещей. </p>
+                        <img src="./img/news_image.png" alt="" class="new__picture">
+                        <div class="new__container">
+                            <time class="new_datetime">01.02.2016</time>
+                            <h2 class="new__title">Заражай друзей, получай призы!</h2>
+                            <p>Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов -
+                                вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции,
+                                мастер-классы, встречи с инвесторами или менторами для резидентов.</p>
+                        </div>
                     </div>
                     <div class="new">
-                        <img src="" alt="" class="new__picture">
-                        <time class="new_datetime">12.10.2016</time>
-                        <h2 class="new__title">Чёрная дыра скидок!</h2>
-                        <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь
-                            в
-                            500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток.
-                            Коворкинг работает в формате 24/7.
-                            Используйте шкаф для хранения личных вещей. </p>
+                        <img src="./img/news_image.png" alt="" class="new__picture">
+                        <div class="new__container">
+                            <time class="new_datetime">22.12.2015</time>
+                            <h2 class="new__title">Новое рабочее место для бизнесменов.</h2>
+                            <p>Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она
+                                включает в себя: кухонную зону и зону релакса.
+                                Каждый резидент может беспрепятственно пользоваться кухонным оборудованием:
+                                микроволновкой, чайником, кофе машиной, посудой.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="pagination">
