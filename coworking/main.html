@@ -15,7 +15,9 @@
     <header class="header">
         <div class="container header__container">
             <div class="logo logo_header">
-                <img src="/qbic007.github.io/coworking/img/logo.png" alt="Логотип Workadium" class="logo__image">
+                <a href="#" class="logo__link">
+                    <img src="./img/logo.png" alt="Логотип Workadium" class="logo__image">
+                </a>
             </div>
             <address class="contact-info">
                 <a href="tel:+78000039210" class="contact-info__phone">8 (800) 00-392-10</a>
@@ -24,16 +26,21 @@
         </div>
     </header>
     <section class="banner">
-        <img src="/qbic007.github.io/coworking/img/banner.jpg" alt="" class="banner__image">
+        <img src="./img/banner.jpg" alt="" class="banner__image">
     </section>
     <main class="container">
         <aside class="aside">
             <nav class="left-menu">
                 <ul class="left-menu__list">
-                    <li class="left-menu__list-item left-menu__list-item--main left-menu__list-item--active">Главная
+                    <li class="left-menu__list-item left-menu__list-item--active">
+                        <a href="#" class="left-menu__list-item-link left-menu__list-item-link--main">Главная</a>
                     </li>
-                    <li class="left-menu__list-item left-menu__list-item--reviews">Отзывы</li>
-                    <li class="left-menu__list-item left-menu__list-item--tariffs">Тарифы</li>
+                    <li class="left-menu__list-item">
+                        <a href="#" class="left-menu__list-item-link left-menu__list-item-link--reviews">Отзывы</a>
+                    </li>
+                    <li class="left-menu__list-item">
+                        <a href="#" class="left-menu__list-item-link left-menu__list-item-link--tariffs">Тарифы</a>
+                    </li>
                 </ul>
             </nav>
         </aside>
@@ -161,21 +168,24 @@
         <div class="container footer__container">
             <div class="info">
                 Сделано с любовью и старанием <br>
-                на курсе «HTML + CSS» в LoftSchool. <br>
+                на курсе «HTML + CSS» в <a href="https://loftshool.com" target="_blank" class="info__loft-link">
+                LoftSchool.</a> <br>
                 Автор работы: Першин Сергей
             </div>
             <div class="logo logo__footer">
-                <img src="/qbic007.github.io/coworking/img/logo.png" alt="Логотип Workadium" class="logo__image">
+                <a href="#" class="logo__link">
+                    <img src="./img/logo.png" alt="Логотип Workadium" class="logo__image">
+                </a>
             </div>
             <div class="socials">
                 Наши социальные сети
-                <ul class="socials__list">
-                    <li class="socials__list-item socials__list-item--vk"></li>
-                    <li class="socials__list-item socials__list-item--fb"></li>
-                    <li class="socials__list-item socials__list-item--gg"></li>
-                    <li class="socials__list-item socials__list-item--tw"></li>
-                    <li class="socials__list-item socials__list-item--ml"></li>
-                </ul>
+                <div class="socials__list">
+                    <a href="http://vk.com" target="_blank" class="socials__list-item socials__list-item--vk"></a>
+                    <a href="http://facebook.com" target="_blank"  class="socials__list-item socials__list-item--fb"></a>
+                    <a href="http://google.com" target="_blank"  class="socials__list-item socials__list-item--gg"></a>
+                    <a href="http://twitter.com" target="_blank"  class="socials__list-item socials__list-item--tw"></a>
+                    <a href="http://mail.ru" target="_blank"  class="socials__list-item socials__list-item--ml"></a>
+                </div>
             </div>
         </div>
     </footer>
