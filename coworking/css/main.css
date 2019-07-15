@@ -273,7 +273,7 @@ h1, h2, h3, p {
 .footer {
     background-color: #27273e;
     height: 77px;
-    margin-top: 56px;
+    margin-top: 55px;
     font: 14px/1.42 GothamPro, sans-serif;
     color: white;
 }
@@ -284,15 +284,35 @@ h1, h2, h3, p {
 
 .info, .logo, .socials {
     display: inline-block;
-    width: 33%;
 }
 
 .info {
     padding-left: 20px;
     padding-top: 10px;
     float: left;
+    width: 300px;
+}
+
+.socials {
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.logo__footer {
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 179px;
+    padding-top: 13px;
+    width: 250px;
 }
 
 .socials {
     float: right;
+    margin-left: 0;
+    margin-top: 0;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-align: right;
 }
