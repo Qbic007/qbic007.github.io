@@ -42,6 +42,9 @@ h1, h2, h3, p {
 
 .header__container {
     height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .banner {
@@ -113,15 +116,16 @@ h1, h2, h3, p {
     font: 18px/1.42 GothamPro, sans-serif;
 }
 
-.features__container {
+.features__list {
     margin-top: 51px;
+    padding-left: 0px;
 }
 
-.feature {
+.features__list-item {
     vertical-align: top;
 }
 
-.feature__icon-container {
+.features__icon-container {
     background-color: #27273e;
     width: 68px;
     height: 68px;
@@ -132,7 +136,7 @@ h1, h2, h3, p {
     margin: auto;
 }
 
-.feature__title {
+.features__title {
     margin-top: 28px;
     margin-bottom: 0;
     font-size: 12px;
@@ -141,30 +145,30 @@ h1, h2, h3, p {
     letter-spacing: 1.5px;
 }
 
-.feature__description {
+.features__description {
     margin-top: 20px;
     line-height: 1.5em;
 }
 
-.feature__list {
+.features__feature-list {
     margin-top: 10px;
     padding-left: 0;
     margin-left: 45px;
     line-height: 1.8em;
 }
 
-.feature__list-item {
+.features__feture-list-item {
     list-style: disc;
     color: #ec1e79;
     text-align: left;
     padding-left: 16px;
 }
 
-.feature__list-item-text {
+.features__feature-list-item-text {
     color: black;
 }
 
-.feature {
+.features__list-item {
     display: inline-block;
     width: 250px;
     text-align: center;
@@ -177,8 +181,9 @@ h1, h2, h3, p {
 }
 
 .news {
-    margin-top: 48px;    
+    margin-top: 64px;
     font: 18px/1.42 Roboto, sans-serif;
+    font-weight: lighter;
 }
 
 .news__container {
@@ -253,8 +258,6 @@ h1, h2, h3, p {
 }
 
 .contact-info {
-    float: right;
-    margin-top: 14px;
     margin-right: 19px;
 }
 
@@ -291,7 +294,7 @@ h1, h2, h3, p {
     font-weight: bold;
 }
 
-.info, .logo, .socials {
+.info, .socials {
     display: inline-block;
 }
 
