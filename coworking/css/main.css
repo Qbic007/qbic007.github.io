@@ -86,22 +86,22 @@ h1, h2, h3, p {
     text-decoration: none;
 }
 
-.left-menu__list-item-link--main::before {
+.left-menu__list-item-link_icon_main::before {
     content: url(../img/main_icon.png);
     margin-right: 20px;
 }
 
-.left-menu__list-item-link--reviews::before {
+.left-menu__list-item-link_icon_reviews::before {
     content: url(../img/feed_icon.png);
     margin-right: 20px;
 }
 
-.left-menu__list-item-link--tariffs::before {
+.left-menu__list-item-link_icon_tariffs::before {
     content: url(../img/wallet_icon.png);
     margin-right: 20px;
 }
 
-.left-menu__list-item--active {
+.left-menu__list-item_active {
     color: black;
 }
 
@@ -245,7 +245,7 @@ h1, h2, h3, p {
     text-align: center;
 }
 
-.pagination__link--active {
+.pagination__link_active {
     background-color: #27273e;
     border-radius: 3px;
     color: white;
@@ -352,22 +352,22 @@ h1, h2, h3, p {
     background-color: #b12167;
 }
 
-.socials__list-item--vk {
+.socials__list-item_icon_vk {
     background-image: url(../img/vk.png);
 }
 
-.socials__list-item--fb {
+.socials__list-item_icon_fb {
     background-image: url(../img/fb.png);
 }
 
-.socials__list-item--gg {
+.socials__list-item_icon_gg {
     background-image: url(../img/google.png);
 }
 
-.socials__list-item--tw {
+.socials__list-item_icon_tw {
     background-image: url(../img/twitter.png);
 }
 
-.socials__list-item--ml {
+.socials__list-item_icon_ml {
     background-image: url(../img/mail.png);
 }
