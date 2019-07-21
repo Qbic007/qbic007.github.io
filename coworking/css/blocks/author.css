@@ -1,0 +1,8 @@
+.author {
+    flex: 1;
+}
+
+.author__link {
+    color: white;
+    text-decoration: underline;
+}

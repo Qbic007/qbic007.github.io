@@ -1,0 +1,9 @@
+@import "./base/normalize.css";
+@import "./base/base.css";
+@import "base/fonts.css";
+@import "blocks/header.css";
+@import "blocks/logo.css";
+@import "blocks/info.css";
+@import "blocks/footer.css";
+@import "blocks/socials.css";
+@import "blocks/author.css";

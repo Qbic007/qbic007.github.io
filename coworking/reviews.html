@@ -4,9 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Воркадиум - Отзывы</title>
 </head>
 <body>
-
+    <div class="wrapper">
+        <header class="header">
+            <div class="container container__header">
+                <div class="logo">
+                    <img src="img/logo.png" height="51" width="99" class="logo_img" alt="Логотип Ворнадиум"/>
+                </div>
+                <address class="info">
+                    <a href="tel:88000039210" class="info__phone">8 (800) 00-392-10</a>
+                    <a href="#" class="info__schedule-link">График работы</a>
+                </address>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <aside class="sidebar">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item_icon_triangle">Главная</li>
+                            <li class="menu__item menu__item_icon_star menu__item_active"> Отзывы</li>
+                            <li class="menu__item menu__item_icon_wallet">Тарифы</li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="main-content">
+                    <nav class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">Главная</li>
+                            <li class="breadcrumbs__item breadcrumbs__item_active">Отзывы</li>
+                        </ul>
+                    </nav>
+                    <section class="reviews">
+                        <h1 class="title">Отзывы</h1>
+                        <ul class="reviews__list">
+                            <li class="reviews__item">
+                                <article class="comment">
+                                    <div class="comment__left-column">
+                                        <div class="comment__avatar">
+                                            <img src="img/swcnamirzyc-danielle-marroquin.png" alt=""
+                                                 class="comment__avatar-img">
+                                        </div>
+                                    </div>
+                                    <div class="comment__main-column">
+                                        <time class="comment__datetime"></time>
+                                        <h2 class="comment__title"></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolore
+                                            dolores eaque eos error nisi odit omnis, perspiciatis placeat provident quam
+                                            reiciendis suscipit vero. Cumque eligendi eveniet facilis minus quo?</p>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <div class="pagination">
+                            <span class="pagination__info"></span>
+                            <ul class="pagination__list">
+                                <li class="pagination__item pagination__item_left"></li>
+                                <li class="pagination__item pagination__item_active">1</li>
+                                <li class="pagination__item">2</li>
+                                <li class="pagination__item">3</li>
+                                <li class="pagination__item">4</li>
+                                <li class="pagination__item">5</li>
+                                <li class="pagination__item">6</li>
+                                <li class="pagination__item">7</li>
+                                <li class="pagination__item pagination__item_right"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="banner">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Accusamus alias
+                            dolorem</strong> doloremque dolorum ea eaque, eos est <b>eum ipsum minima</b>, minus
+                            molestias nobis odit perspiciatis qui quibusdam sint voluptate voluptates?</p>
+                    </section>
+                    <section class="review-form">
+                        <form action="" class="form">
+                            <h1 class="form__title">Оставить отзыв</h1>
+                            <div class="form__row">
+                                <label class="form__label">Ваше имя
+                                    <input type="text" class="form__input-text form__input-text_short"
+                                           placeholder="Андрей">
+                                </label>
+                                <label class="form__label">Ссылка на профиль VK
+                                    <input type="text" class="form__input-text form__input-text_short"
+                                           placeholder="vk.com/example">
+                                </label>
+                            </div>
+                            <label class="form__label">Текст отзыва
+                                <textarea class="form__textarea" placeholder="Мне понравилось"></textarea>
+                            </label>
+                            <div class="form__row">
+                                <label class="form__label"> Да
+                                    <input type="radio" class="form__input-radio" checked>
+                                </label>
+                                <label class="form__label"> Нет
+                                    <input type="radio" class="form__input-radio">
+                                </label>
+                                <input type="submit" class="form__input-submit" value="Отправить">
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container container__footer">
+                <div class="author">
+                    Сделано с любовью и старанием <br>
+                    на курсе «HTML + CSS» в
+                    <a href="https://loftschool.ru" target="_blank" class="author__link">LoftSchool</a>. <br>
+                    Автор работы: Першин Сергей
+                </div>
+                <div class="logo logo__footer">
+                    <img src="img/logo.png" height="51" width="99" class="logo_img" alt="Логотип Ворнадиум"/>
+                </div>
+                <div class="socials">
+                    <h5 class="socials__title">Наши социальные сети</h5>
+                    <ul class="socials__list">
+                        <li class="socials__item socials__icon_vk">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__icon_fb">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__icon_gg">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__icon_tw">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__icon_ml">
+                            <a href="" class="socials__link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
