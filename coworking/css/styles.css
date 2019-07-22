@@ -11,6 +11,10 @@
 @import "blocks/title.css";
 @import "blocks/post.css";
 @import "blocks/reviews.css";
+@import "blocks/pagination.css";
+@import "blocks/banner.css";
+@import "blocks/review-form.css";
+@import "blocks/form.css";
 @import "blocks/menu.css";
 @import "blocks/footer.css";
 @import "blocks/socials.css";

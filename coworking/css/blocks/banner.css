@@ -1,0 +1,18 @@
+.banner {
+    margin-top: 57px;
+    min-height: 174px;
+    background-color: #27273e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font: 18px/1.42 GothamPro, sans-serif;
+    color: white;
+    line-height: 30px;
+}
+
+.banner b, strong {
+    color: #ec1e79;
+    font-weight: bold;
+}
+

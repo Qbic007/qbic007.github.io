@@ -50,17 +50,19 @@
                                         </div>
                                     </div>
                                     <article class="post__main-column">
-                                        <time class="post__datetime">22.07.2019</time>
-                                        <h2 class="post__title">Олег Павлов</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolore
-                                            dolores eaque eos error nisi odit omnis, perspiciatis placeat provident quam
-                                            reiciendis suscipit vero. Cumque eligendi eveniet facilis minus quo?</p>
+                                        <time class="post__datetime">14.08.2015</time>
+                                        <h2 class="post__title">Наталья Осадчая</h2>
+                                        <p>Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при
+                                            необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии.
+                                            Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще
+                                            несколько переговорных комнат на 10-15 человек, а то они пользуются большим
+                                            спросом и не всегда есть возможность забронировать.</p>
                                     </article>
                                 </div>
                             </li>
                         </ul>
                         <div class="pagination">
-                            <span class="pagination__info"></span>
+                            <span class="pagination__info">Страница 1 из 7</span>
                             <ul class="pagination__list">
                                 <li class="pagination__item pagination__item_left"></li>
                                 <li class="pagination__item pagination__item_active">1</li>
@@ -75,33 +77,33 @@
                         </div>
                     </section>
                     <section class="banner">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Accusamus alias
-                            dolorem</strong> doloremque dolorum ea eaque, eos est <b>eum ipsum minima</b>, minus
-                            molestias nobis odit perspiciatis qui quibusdam sint voluptate voluptates?</p>
+                        <p>Для наших новых клиентов мы предлагаем <strong>скидку</strong> <b>50%</b> на первый <br>день!
+                            Приходите, чтобы лично оценить преимущества коворкинга <br> «Воркадиум»!</p>
                     </section>
                     <section class="review-form">
                         <form action="" class="form">
                             <h1 class="form__title">Оставить отзыв</h1>
                             <div class="form__row">
-                                <label class="form__label">Ваше имя
+                                <div class="form__column">
+                                    <label class="form__label" for="form_name">Ваше имя</label>
                                     <input type="text" class="form__input-text form__input-text_short"
-                                           placeholder="Андрей">
-                                </label>
-                                <label class="form__label">Ссылка на профиль VK
+                                           id="form_name" placeholder="Андрей">
+                                </div>
+                                <div class="form__column">
+                                    <label class="form__label" for="form_vk">Ссылка на профиль VK</label>
                                     <input type="text" class="form__input-text form__input-text_short"
-                                           placeholder="vk.com/example">
-                                </label>
+                                           placeholder="vk.com/example" id="form_vk">
+                                </div>
                             </div>
-                            <label class="form__label">Текст отзыва
-                                <textarea class="form__textarea" placeholder="Мне понравилось"></textarea>
-                            </label>
-                            <div class="form__row">
-                                <label class="form__label"> Да
-                                    <input type="radio" class="form__input-radio" checked>
-                                </label>
-                                <label class="form__label"> Нет
-                                    <input type="radio" class="form__input-radio">
-                                </label>
+                            <label class="form__label" for="form_review">Текст отзыва</label>
+                            <textarea class="form__textarea" placeholder="Мне понравилось" id="form_review"></textarea>
+
+                            <div class="form__row">Отображать фото в отзыве?
+                                <label class="form__label" for="form_photo_yes"> Да</label>
+                                <input type="radio" class="form__input-radio" id="form_photo_yes" checked>
+                                <label class="form__label" for="form_photo_no"> Нет</label>
+                                <input type="radio" class="form__input-radio" id="form_photo_no">
+
                                 <input type="submit" class="form__input-submit" value="Отправить">
                             </div>
                         </form>
