@@ -4,6 +4,14 @@
 @import "blocks/header.css";
 @import "blocks/logo.css";
 @import "blocks/info.css";
+@import "blocks/main.css";
+@import "blocks/sidebar.css";
+@import "blocks/main-content.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/title.css";
+@import "blocks/post.css";
+@import "blocks/reviews.css";
+@import "blocks/menu.css";
 @import "blocks/footer.css";
 @import "blocks/socials.css";
 @import "blocks/author.css";

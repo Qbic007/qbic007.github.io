@@ -1,0 +1,28 @@
+.breadcrumbs__list {
+    margin-top: 40px;
+}
+
+.breadcrumbs__list {
+    display: inline-block;
+    flex-wrap: wrap;
+    font: 14px/1.42 GothamPro, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #ec1e79;
+}
+
+.breadcrumbs__item_active {
+    color: #221f1f;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+}
+
+.breadcrumbs__item:after {
+    content: " / ";
+}
+
+.breadcrumbs__item:last-child:after {
+    content: "";
+}

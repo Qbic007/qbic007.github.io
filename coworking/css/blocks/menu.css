@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menu__item {
+    font: 13px/1.42 GothamPro, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 26px;
+    text-align: left;
+    color: #ec1e79;
+}
+
+.menu__item-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu__item_icon_triangle::before {
+    content: url(../../img/main_icon.png);
+    margin-right: 20px;
+}
+
+.menu__item_icon_star::before {
+    content: url(../../img/feed_icon.png);
+    margin-right: 13px;
+}
+
+.menu__item_icon_wallet::before {
+    content: url(../../img/wallet_icon.png);
+    margin-right: 19px;
+}
+
+.menu__item_active {
+    color: black;
+}

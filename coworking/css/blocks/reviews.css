@@ -1,0 +1,3 @@
+.reviews__list:last-child .post {
+    border-bottom: none;
+}
