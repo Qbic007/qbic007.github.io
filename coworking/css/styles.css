@@ -2,6 +2,7 @@
 @import "./base/base.css";
 @import "base/fonts.css";
 @import "blocks/header.css";
+@import "blocks/header-banner.css";
 @import "blocks/logo.css";
 @import "blocks/info.css";
 @import "blocks/main.css";
@@ -9,6 +10,8 @@
 @import "blocks/main-content.css";
 @import "blocks/breadcrumbs.css";
 @import "blocks/title.css";
+@import "blocks/features.css";
+@import "blocks/news.css";
 @import "blocks/post.css";
 @import "blocks/reviews.css";
 @import "blocks/pagination.css";

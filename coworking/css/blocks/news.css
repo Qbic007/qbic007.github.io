@@ -1,0 +1,43 @@
+.news {
+    margin-top: 64px;
+    font: 18px/1.42 Roboto, sans-serif;
+    font-weight: lighter;
+}
+
+.news__container {
+    margin-top: 50px;
+}
+
+.new__picture {
+    display: inline-block;
+    width: 160px;
+}
+
+.new__picture {
+    border-radius: 50%;
+}
+
+.new__container {
+    display: inline-block;
+    width: 700px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.new_datetime {
+    font-size: 14px;
+    color: #8e8d8d;
+}
+
+.new__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.new__container p {
+    line-height: 1.7em;
+}
+
+.new {
+    margin-top: 32px;
+}
