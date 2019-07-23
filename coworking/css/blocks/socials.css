@@ -15,6 +15,10 @@
 
 .socials__item {
     display: inline-block;
+}
+
+.socials__link {
+    display: inline-block;
     width: 20px;
     height: 20px;
     background: no-repeat #d4d4d8 center;
@@ -22,26 +26,26 @@
     margin-right: 5px;
 }
 
-.socials__item:hover {
+.socials__link:hover {
     background-color: #b12167;
 }
 
-.socials__icon_vk {
+.socials__link_vk {
     background-image: url(../../img/vk.png);
 }
 
-.socials__icon_fb {
+.socials__link_fb {
     background-image: url(../../img/fb.png);
 }
 
-.socials__icon_gg {
+.socials__link_gg {
     background-image: url(../../img/google.png);
 }
 
-.socials__icon_tw {
+.socials__link_tw {
     background-image: url(../../img/twitter.png);
 }
 
-.socials__icon_ml {
+.socials__link_ml {
     background-image: url(../../img/mail.png);
 }

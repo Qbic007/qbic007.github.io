@@ -1,6 +1,7 @@
 .banner {
     margin-top: 57px;
     min-height: 174px;
+    background: url(../../img/pattern.png) center;
     background-color: #27273e;
     display: flex;
     justify-content: center;

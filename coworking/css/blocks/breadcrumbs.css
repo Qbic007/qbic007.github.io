@@ -6,7 +6,7 @@
     display: inline-block;
     flex-wrap: wrap;
     font: 14px/1.42 GothamPro, sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     font-style: italic;
     color: #ec1e79;
 }
@@ -19,10 +19,14 @@
     display: inline-block;
 }
 
-.breadcrumbs__item:after {
+.breadcrumbs__item:before {
     content: " / ";
 }
 
-.breadcrumbs__item:last-child:after {
+.breadcrumbs__item:first-child:before {
     content: "";
+}
+
+.breadcrumbs__link {
+    color: inherit;
 }
