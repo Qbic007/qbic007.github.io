@@ -1,3 +1,7 @@
+.partners {
+    margin-top: 40px;
+}
+
 .partners__list {
     display: flex;
     flex-wrap: wrap;
