@@ -76,40 +76,47 @@
                             </ul>
                         </div>
                     </section>
-                    <section class="banner">
-                        <p>Для наших новых клиентов мы предлагаем <strong>скидку</strong> <b>50%</b> на первый <br>день!
-                            Приходите, чтобы лично оценить преимущества коворкинга <br> «Воркадиум»!</p>
-                    </section>
-                    <section class="review-form">
-                        <form action="" class="form">
-                            <h1 class="form__title">Оставить отзыв</h1>
-                            <div class="form__row">
-                                <div class="form__column">
-                                    <label class="form__label" for="form_name">Ваше имя</label>
-                                    <input type="text" class="form__input-text form__input-text_short"
-                                           id="form_name" placeholder="Андрей">
-                                </div>
-                                <div class="form__column">
-                                    <label class="form__label" for="form_vk">Ссылка на профиль VK</label>
-                                    <input type="text" class="form__input-text form__input-text_short"
-                                           placeholder="vk.com/example" id="form_vk">
-                                </div>
-                            </div>
-                            <label class="form__label" for="form_review">Текст отзыва</label>
-                            <textarea class="form__textarea" placeholder="Мне понравилось" id="form_review"></textarea>
-
-                            <div class="form__row">Отображать фото в отзыве?
-                                <label class="form__label" for="form_photo_yes"> Да</label>
-                                <input type="radio" class="form__input-radio" id="form_photo_yes" checked>
-                                <label class="form__label" for="form_photo_no"> Нет</label>
-                                <input type="radio" class="form__input-radio" id="form_photo_no">
-
-                                <input type="submit" class="form__input-submit" value="Отправить">
-                            </div>
-                        </form>
-                    </section>
                 </div>
             </div>
+            <section class="banner">
+                <p>Для наших новых клиентов мы предлагаем <strong>скидку</strong> <b>50%</b> на первый <br>день!
+                    Приходите, чтобы лично оценить преимущества коворкинга <br> «Воркадиум»!</p>
+            </section>
+            <section class="review-form">
+                <form action="" class="form">
+                    <h1 class="form__title">Оставить отзыв</h1>
+                    <div class="form__row">
+                        <div class="form__short-text">
+                            <label class="form__label" for="form_name">Ваше имя</label>
+                            <input type="text" class="form__input-text form__input-text_short"
+                                   id="form_name" placeholder="Андрей">
+                        </div>
+                        <div class="form__short-text">
+                            <label class="form__label" for="form_vk">Ссылка на профиль VK</label>
+                            <input type="text" class="form__input-text form__input-text_short"
+                                   placeholder="vk.com/example" id="form_vk">
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__area-text">
+                            <label class="form__label" for="form_review">Текст отзыва</label>
+                            <textarea class="form__textarea" placeholder="Мне понравилось"
+                                      id="form_review"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form-radio-group">
+                            <label class="form__label">Отображать фото в отзыве?</label>
+                            <label class="form__label" for="form_photo_yes"> Да</label>
+                            <input type="radio" class="form__input-radio" id="form_photo_yes" checked>
+                            <label class="form__label" for="form_photo_no"> Нет</label>
+                        </div>
+                        <input type="radio" class="form__input-radio" id="form_photo_no">
+
+                        <input type="submit" class="form__input-submit" value="Отправить">
+                    </div>
+                </form>
+            </section>
         </main>
         <footer class="footer">
             <div class="container container__footer">
