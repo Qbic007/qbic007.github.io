@@ -74,6 +74,10 @@
     resize: none;
 }
 
+.form__textarea, .form__input-text {
+    border: transparent solid 1px;
+}
+
 .form__textarea:focus, .form__input-text:focus {
     outline:none;
     border: #ec1e79 solid 1px;
@@ -114,4 +118,5 @@
     outline: none;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
