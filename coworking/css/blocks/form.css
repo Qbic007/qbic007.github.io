@@ -94,16 +94,45 @@
     align-items: center;
 }
 
+.form__label-radio {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
 .form__input-radio {
-    margin-right: 15px;
+    display: none;
 }
 
-.form__input-radio:before {
-    content: url(../../img/ellipse.png);
+.form__input-radio-marker:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ec1e79;
+    opacity: 0;
 }
 
-.form__input-radio:checked:before {
-    content: url(../../img/ellipse_checked.png);
+.form__input-radio:checked ~ .form__input-radio-marker:after {
+    opacity: 1;
+    transition: .3s;
+}
+
+.form__input-radio:checked ~ .form__label-radio-text {
+    color: #ec1e79;
+}
+
+.form__input-radio-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .form__input-submit {
