@@ -1,0 +1,8 @@
+.header-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner__image {
+    display: block;
+}
