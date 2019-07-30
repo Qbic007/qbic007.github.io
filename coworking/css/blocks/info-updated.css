@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: flex-end;
     flex: 1;
+    position: relative;
 }
 
 .info__phone, .info__schedule-link {
@@ -23,4 +24,52 @@
     color: #b12167;
     letter-spacing: 0.8px;
     text-decoration: underline;
+}
+
+.info__schedule-link:hover {
+    color: #769dcd;
+}
+
+.info__schedule-link:hover ~ .info__schedule {
+    left: 76px;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.info__schedule {
+    font: 14px/1.42 GothamPro, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 71px;
+    width: 153px;
+    height: 70px;
+    background: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 22px;
+    padding-left: 10px;
+    opacity: 0;
+    left: -9999px;
+}
+
+.info__schedule:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 3px;
+    width: 19px;
+    height: 19px;
+    background: white;
+    border-radius: 4px;
+    transform: rotate(45deg);
+}
+
+.info__schedule-work-time {
+    color: #ec1e79;
+}
+
+.info__schedule-rest-time {
+    color: #221f1f;
 }

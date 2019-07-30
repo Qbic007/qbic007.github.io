@@ -29,6 +29,10 @@
     color: #221f1f;
 }
 
+.pagination__item:hover {
+    color: #ec1e79;
+}
+
 .pagination__item_active {
     border-radius: 2px;
     background-color: #27273e;
