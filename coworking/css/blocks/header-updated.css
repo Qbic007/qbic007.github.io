@@ -2,8 +2,15 @@
     background-color: #27273e;
 }
 
-.container__header {
+.container__header-main {
     min-height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__header {
+    min-height: 76px;
     display: flex;
     justify-content: space-between;
     align-items: center;
