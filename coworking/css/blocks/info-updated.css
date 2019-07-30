@@ -1,0 +1,26 @@
+.info {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.info__phone, .info__schedule-link {
+    display: block;
+}
+
+.info__phone {
+    font: 21px/1.42 GothamPro, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.info__schedule-link {
+    font: 14px/1.42 "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    color: #b12167;
+    letter-spacing: 0.8px;
+    text-decoration: underline;
+}

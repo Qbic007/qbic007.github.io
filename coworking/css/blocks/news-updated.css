@@ -1,0 +1,44 @@
+.news {
+    margin-top: 10px;
+    font: 18px/1.42 Roboto, sans-serif;
+    font-weight: lighter;
+}
+
+.news__container {
+    margin-top: 60px;
+    padding-left: 5px;
+}
+
+.new__picture {
+    display: inline-block;
+    width: 175px;
+}
+
+.new__picture {
+    border-radius: 50%;
+}
+
+.new__container {
+    display: inline-block;
+    width: 665px;
+    padding-left: 15px;
+    vertical-align: top;
+}
+
+.new_datetime {
+    font-size: 14px;
+    color: #8e8d8d;
+}
+
+.new__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.new__container p {
+    line-height: 1.7em;
+}
+
+.new {
+    margin-top: 35px;
+}

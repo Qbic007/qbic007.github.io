@@ -1,0 +1,19 @@
+.footer {
+    background-color: #27273e;
+    height: 82px;
+    margin-top: 55px;
+    font: 14px/1.42 GothamPro, sans-serif;
+    color: white;
+}
+
+.container__footer {
+    min-height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__footer {
+    display: flex;
+    justify-content: flex-end;
+}
