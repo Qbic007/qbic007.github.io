@@ -1,7 +1,6 @@
 @import "./base/normalize.css";
 @import "./base/base-updated.css";
 @import "base/fonts.css";
-@import "intro.css";
 @import "blocks/header-updated.css";
 @import "blocks/header-banner-updated.css";
 @import "blocks/logo-updated.css";
