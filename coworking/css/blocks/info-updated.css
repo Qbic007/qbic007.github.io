@@ -50,8 +50,9 @@
     justify-content: center;
     line-height: 22px;
     padding-left: 10px;
-    /*opacity: 0;*/
+    opacity: 0;
     right: -9999px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .info__schedule:before {
