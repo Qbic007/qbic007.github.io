@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.menu__thirdly {
+    margin-top: 30px;
+    display: flex;
+}
+
 .menu__list {
     display: flex;
     flex-direction: row;
@@ -48,6 +53,16 @@
     display: inline-block;
     width: 20px;
     height: 18px;
+    background: url(../../img/menu_sprites.png) -50px -10px;
+    margin-right: 17px;
+}
+
+.menu__item_active.menu__item_icon_star::before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 18px;
     background: url(../../img/menu_sprites.png) -10px -10px;
     margin-right: 17px;
 }
@@ -59,6 +74,16 @@
     width: 19px;
     height: 16px;
     background: url(../../img/menu_sprites.png) -49px -86px;
+    margin-right: 19px;
+}
+
+.menu__item_active.menu__item_icon_wallet::before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    background: url(../../img/menu_sprites.png) -10px -86px;
     margin-right: 19px;
 }
 

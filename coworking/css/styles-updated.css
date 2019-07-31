@@ -11,7 +11,7 @@
 @import "blocks/breadcrumbs.css";
 @import "blocks/title.css";
 @import "blocks/tariffs.css";
-@import "blocks/partners.css";
+@import "blocks/partners-updated.css";
 @import "blocks/features-updated.css";
 @import "blocks/news-updated.css";
 @import "blocks/post.css";
@@ -26,3 +26,4 @@
 @import "blocks/footer-updated.css";
 @import "blocks/socials-updated.css";
 @import "blocks/author.css";
+@import "blocks/tariffs-updated.css";

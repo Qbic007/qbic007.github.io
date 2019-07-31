@@ -1,0 +1,43 @@
+.partners {
+    margin-top: 30px;
+    color: #221f1f;
+    padding-top: 24px;
+    width: 93%;
+    border: 1px solid #e8e9ed;
+}
+
+.partners__list {
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners__item {
+    margin-bottom: 17px;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners__link {
+    position: relative;
+}
+
+.partners__img {
+    filter: grayscale(1);
+}
+
+.partners__img:hover {
+    filter: grayscale(0);
+}
+
+.partners__title {
+    font: 18px/1.42 GothamPro, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
