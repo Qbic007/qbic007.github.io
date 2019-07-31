@@ -26,14 +26,19 @@
     text-decoration: underline;
 }
 
-.info__schedule-link:hover {
+.info__schedule-wrapper:hover > .info__schedule-link {
     color: #769dcd;
+
+}
+
+.info__schedule-wrapper:hover > .info__schedule {
+    display: flex;
+    right: 51px;
+    opacity: 1;
+    transition: opacity .4s;
 }
 
 .info__schedule-link:hover ~ .info__schedule {
-    right: 51px;
-    opacity: 1;
-    transition: opacity 0.4s;
 }
 
 .info__schedule {
@@ -45,14 +50,24 @@
     height: 70px;
     background: white;
     border-radius: 3px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 22px;
     padding-left: 10px;
+    display: none;
     opacity: 0;
-    right: -9999px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.info__schedule:after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    width: 175px;
+    height: 60px;
+    background: transparent;
+    border-radius: 3px;
 }
 
 .info__schedule:before {
