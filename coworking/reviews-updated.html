@@ -19,6 +19,10 @@
                 <address class="info">
                     <a href="tel:88000039210" class="info__phone">8 (800) 00-392-10</a>
                     <a href="#" class="info__schedule-link">График работы</a>
+                    <div class="info__schedule">
+                        <time class="info__schedule-work-time">пн-вс: 09:00-20:00</time>
+                        <time class="info__schedule-rest-time">обед: 14:00-14:30</time>
+                    </div>
                 </address>
             </div>
         </header>
@@ -165,56 +169,56 @@
                             </ul>
                         </div>
                     </section>
+                    <section class="review-form">
+                        <form action="" class="form">
+                            <div class="form__container">
+                                <h1 class="form__title">Оставить отзыв</h1>
+                                <div class="form__row">
+                                    <div class="form__text-box">
+                                        <label class="form__label" for="form_name">Ваше имя</label>
+                                        <input type="text" class="form__input-text form__input-text_short"
+                                               id="form_name" placeholder="Андрей" tabindex="1">
+                                    </div>
+                                    <div class="form__text-box">
+                                        <label class="form__label" for="form_vk">Ссылка на профиль VK</label>
+                                        <input type="text" class="form__input-text form__input-text_short"
+                                               placeholder="vk.com/example" id="form_vk" tabindex="2">
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__textarea-box">
+                                        <label class="form__label" for="form_review">Текст отзыва</label>
+                                        <textarea class="form__textarea" placeholder="Мне понравилось"
+                                                  id="form_review" tabindex="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <div class="form__radio-group">
+                                        <label class="form__label">Отображать фото в отзыве?</label>
+                                        <div class="form__radio-box">
+                                            <label class="form__label-radio">
+                                                <input type="radio" name="showPhoto" class="form__input-radio"
+                                                       tabindex="4" checked>
+                                                <span class="form__label-radio-text">Да</span>
+                                                <span class="form__input-radio-marker"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form__radio-box">
+                                            <label class="form__label-radio">
+                                                <input type="radio" name="showPhoto" class="form__input-radio" tabindex="5">
+                                                <span class="form__label-radio-text">Нет</span>
+                                                <span class="form__input-radio-marker"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <input type="submit" class="form__input-submit" value="Отправить">
+                                </div>
+                            </div>
+                        </form>
+                    </section>
                 </div>
             </div>
-            <section class="review-form">
-                <form action="" class="form">
-                    <div class="form__container">
-                        <h1 class="form__title">Оставить отзыв</h1>
-                        <div class="form__row">
-                            <div class="form__text-box">
-                                <label class="form__label" for="form_name">Ваше имя</label>
-                                <input type="text" class="form__input-text form__input-text_short"
-                                       id="form_name" placeholder="Андрей" tabindex="1">
-                            </div>
-                            <div class="form__text-box">
-                                <label class="form__label" for="form_vk">Ссылка на профиль VK</label>
-                                <input type="text" class="form__input-text form__input-text_short"
-                                       placeholder="vk.com/example" id="form_vk" tabindex="2">
-                            </div>
-                        </div>
-                        <div class="form__row">
-                            <div class="form__textarea-box">
-                                <label class="form__label" for="form_review">Текст отзыва</label>
-                                <textarea class="form__textarea" placeholder="Мне понравилось"
-                                          id="form_review" tabindex="3"></textarea>
-                            </div>
-                        </div>
-                        <div class="form__row">
-                            <div class="form__radio-group">
-                                <label class="form__label">Отображать фото в отзыве?</label>
-                                <div class="form__radio-box">
-                                    <label class="form__label-radio">
-                                        <input type="radio" name="showPhoto" class="form__input-radio"
-                                               tabindex="4" checked>
-                                        <span class="form__label-radio-text">Да</span>
-                                        <span class="form__input-radio-marker"></span>
-                                    </label>
-                                </div>
-                                <div class="form__radio-box">
-                                    <label class="form__label-radio">
-                                        <input type="radio" name="showPhoto" class="form__input-radio" tabindex="5">
-                                        <span class="form__label-radio-text">Нет</span>
-                                        <span class="form__input-radio-marker"></span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <input type="submit" class="form__input-submit" value="Отправить">
-                        </div>
-                    </div>
-                </form>
-            </section>
         </main>
         <footer class="footer">
             <div class="container container__footer">
@@ -228,26 +232,6 @@
                     <a href="https://qbic007.github.io/coworking/main-updated">
                         <img src="img/logo.png" height="51" width="99" class="logo_img" alt="Логотип Ворнадиум"/>
                     </a>
-                </div>
-                <div class="socials">
-                    <h5 class="socials__title">Наши социальные сети</h5>
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a href="http://vk.com" class="socials__link socials__link_vk" target="_blank"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="http://facebook.com" class="socials__link socials__link_fb" target="_blank"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="http://google.com" class="socials__link socials__link_gg" target="_blank"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="http://twitter.com" class="socials__link socials__link_tw" target="_blank"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="http://mail.com" class="socials__link socials__link_ml" target="_blank"></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </footer>

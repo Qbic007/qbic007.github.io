@@ -1,0 +1,151 @@
+.form {
+    font: 14px/1.42 GothamPro, sans-serif;
+    color: #221f1f;
+    font-weight: 300;
+    margin-top: 55px;
+    padding-top: 35px;
+    padding-left: 65px;
+    padding-right: 65px;
+    width: 640px;
+    height: 395px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__container {
+    height: 300px;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__title {
+    font-size: 50px;
+}
+
+.form__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form__text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.form__label {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form__input-text {
+    border: none;
+    border-radius: 3px;
+    width: 260px;
+    height: 45px;
+    padding-left: 10px;
+    color: #908f8f;
+}
+
+.form__textarea-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.form__textarea {
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    width: 550px;
+    padding-left: 10px;
+    padding-top: 10px;
+    min-height: 80px;
+    resize: none;
+}
+
+.form__textarea, .form__input-text {
+    border: transparent solid 1px;
+}
+
+.form__textarea:focus, .form__input-text:focus {
+    outline:none;
+    border: #ec1e79 solid 1px;
+}
+
+.form__radio-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__radio-box {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form__label-radio {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.form__input-radio {
+    display: none;
+}
+
+.form__input-radio-marker:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ec1e79;
+    opacity: 0;
+}
+
+.form__input-radio:checked ~ .form__input-radio-marker:after {
+    opacity: 1;
+    transition: .3s;
+}
+
+.form__input-radio:checked ~ .form__label-radio-text {
+    color: #ec1e79;
+}
+
+.form__input-radio-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.form__input-submit {
+    width: 140px;
+    height: 45px;
+    background-color: #27273e;
+    color: white;
+    font: 12px/1.42 GothamPro, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

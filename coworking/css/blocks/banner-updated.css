@@ -1,0 +1,20 @@
+.banner {
+    width: 91%;
+    margin-top: 50px;
+    min-height: 230px;
+    background: url(../../img/pattern.png) center #27273e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font: 18px/1.42 GothamPro, sans-serif;
+    color: white;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.banner b, strong {
+    color: #ec1e79;
+    font-weight: bold;
+}
+

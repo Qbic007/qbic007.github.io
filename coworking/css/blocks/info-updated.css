@@ -31,7 +31,7 @@
 }
 
 .info__schedule-link:hover ~ .info__schedule {
-    left: 76px;
+    right: 51px;
     opacity: 1;
     transition: opacity 0.4s;
 }
@@ -50,8 +50,8 @@
     justify-content: center;
     line-height: 22px;
     padding-left: 10px;
-    opacity: 0;
-    left: -9999px;
+    /*opacity: 0;*/
+    right: -9999px;
 }
 
 .info__schedule:before {
