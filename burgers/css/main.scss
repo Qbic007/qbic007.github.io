@@ -1,0 +1,24 @@
+//colors
+$color-hover-button-orange: #c1401e;
+$main-orange: #e45028;
+$main-yellow: #f9b43b;
+$main-dark-grey: #2f3234;
+$color-hover-button-grey: #1f2122;
+
+//normalize
+@import "_misc/normalize.scss";
+
+// setups
+@import "_misc/fonts";
+@import "_misc/layout";
+
+// blocks
+@import "blocks/section.scss";
+@import "blocks/hero.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/button.scss";
+@import "blocks/title.scss";
+@import "blocks/scroll-down-button.scss";
+@import "blocks/best.scss";
+@import "blocks/reviews.scss";

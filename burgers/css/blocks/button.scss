@@ -1,0 +1,21 @@
+.button {
+  padding: 12px 15px;
+  border-radius: 5px;
+  background: $main-orange;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+
+  &:hover {
+    background: $color-hover-button-orange;
+  }
+}
+
+.button--gray {
+  background: $main-dark-grey;
+
+  &:hover {
+    background: $color-hover-button-grey;
+  }
+}
+
