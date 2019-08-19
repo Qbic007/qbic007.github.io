@@ -6,11 +6,11 @@ $main-dark-grey: #2f3234;
 $color-hover-button-grey: #1f2122;
 
 //normalize
-@import "_misc/normalize.scss";
+@import "misc/normalize.scss";
 
 // setups
-@import "_misc/fonts";
-@import "_misc/layout";
+@import "misc/fonts";
+@import "misc/layout";
 
 // blocks
 @import "blocks/section.scss";
