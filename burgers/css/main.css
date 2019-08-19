@@ -637,7 +637,7 @@ button {
   transform: translateX(-50%); }
 
 .best {
-  background: url("../img/bg/best.png") center center/cover no-repeat; }
+  background: url("../img/bg/best.jpg") center center/cover no-repeat; }
 
 .best__list {
   display: -webkit-box;
