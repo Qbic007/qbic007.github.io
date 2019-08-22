@@ -528,6 +528,9 @@ button {
   -ms-flex: .8;
   flex: .8; }
 
+.hero__content-img {
+  max-width: 100%; }
+
 .hero__desc {
   padding-top: 85px;
   margin-left: 20px; }
@@ -667,6 +670,9 @@ button {
   line-height: 24px;
   font-family: 'Ubuntu', Helvetica, sans-serif;
   font-weight: 300; }
+
+.best__picture-icon {
+  max-width: 100%; }
 
 .reviews__list {
   height: 100%;
