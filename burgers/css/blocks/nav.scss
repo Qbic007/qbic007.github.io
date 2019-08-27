@@ -1,3 +1,31 @@
+.nav {
+  @include inlineblock(middle);
+
+  @include tablets {
+    display: none;
+  }
+
+  &_hamburger {
+    width: auto;
+
+    .nav__item {
+      display: block;
+      text-align: center;
+      opacity: 0;
+      animation-fill-mode: forwards;
+
+      &:after {
+        display: block;
+        margin: rem(15px) auto;
+      }
+    }
+
+    @include tablets {
+      display: block;
+    }
+  }
+}
+
 .nav__list {
   display: flex;
   align-items: center;
@@ -6,16 +34,16 @@
 .nav__item {
   display: flex;
   align-items: center;
-  margin-right: 18px;
+  margin-right: rem(18px);
 
   &:after {
     content: "";
-    width: 4px;
-    height: 4px;
+    width: rem(4px);
+    height: rem(4px);
     background: #fff;
     border-radius: 50%;
     display: block;
-    margin-left: 15px;
+    margin-left: rem(15px);
   }
 
 
@@ -30,7 +58,7 @@
 .nav__link {
   text-decoration: none;
   color: #fff;
-  font-size: 13px;
+  font-size: rem(13px);
   text-transform: uppercase;
   font-weight: 500;
 }

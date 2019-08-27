@@ -5,10 +5,20 @@ $main-yellow: #f9b43b;
 $main-dark-grey: #2f3234;
 $color-hover-button-grey: #1f2122;
 
+// resolutions
+$phones: 480px;
+$tablets: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
 //normalize
 @import "misc/normalize.scss";
 
+// media
+@import "misc/media";
+
 // setups
+@import "misc/mixins";
 @import "misc/fonts";
 @import "misc/layout";
 
@@ -21,4 +31,12 @@ $color-hover-button-grey: #1f2122;
 @import "blocks/title.scss";
 @import "blocks/scroll-down-button.scss";
 @import "blocks/best.scss";
+@import "blocks/menu.scss";
+@import "blocks/menu-acco.scss";
+@import "blocks/team.scss";
+@import "blocks/team-acco.scss";
 @import "blocks/reviews.scss";
+@import "blocks/order.scss";
+@import "blocks/map.scss";
+@import "blocks/footer.scss";
+@import "blocks/hamburger-menu.scss";
