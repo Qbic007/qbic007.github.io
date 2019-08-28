@@ -1392,8 +1392,27 @@ img {
     .footer__col_right {
       text-align: center; } }
 
+.socials {
+  position: relative;
+  top: 50%; }
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.625rem; }
+
+.socials__link {
+  display: inline-block;
+  max-width: 1.4375rem;
+  max-height: 1.25rem;
+  opacity: .3;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .socials__link:hover {
+    opacity: 1; }
+
 .socials__link-icon {
-  fill: #fff;
   width: 1.25rem;
   height: 1.25rem; }
 
