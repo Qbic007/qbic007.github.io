@@ -29,5 +29,20 @@
       background: $color-hover-button-grey;
     }
   }
+
+  &--view--desktop {
+    @include phones {
+      display: none;
+    }
+
+  }
+
+  &--view--mobile {
+    display: none;
+
+    @include phones {
+      display: inline-block;
+    }
+  }
 }
 

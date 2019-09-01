@@ -54,8 +54,8 @@
 }
 
 .reviews__hover-container {
-  width: 70%;
-  max-width: rem(300px);
+  width: 90%;
+  max-width: rem(350px);
 }
 
 .reviews__text {
@@ -71,6 +71,10 @@
   @include gagalin();
   margin-bottom: rem(30px);
   font-size: rem(14px);
+
+  @include tablets {
+    margin-bottom: rem(10px);
+  }
 
   @include phones {
     font-size: rem(20px);

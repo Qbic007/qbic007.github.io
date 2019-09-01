@@ -748,6 +748,14 @@ address {
     background: #2f3234; }
     .button--gray:hover {
       background: #1f2122; }
+  @media screen and (max-width: 480px) {
+    .button--view--desktop {
+      display: none; } }
+  .button--view--mobile {
+    display: none; }
+    @media screen and (max-width: 480px) {
+      .button--view--mobile {
+        display: inline-block; } }
 
 .title {
   font-size: 4.5rem;
@@ -1155,8 +1163,8 @@ address {
       text-align: center; } }
 
 .reviews__hover-container {
-  width: 70%;
-  max-width: 18.75rem; }
+  width: 90%;
+  max-width: 21.875rem; }
 
 .reviews__text {
   margin-bottom: 1.25rem;
@@ -1169,6 +1177,9 @@ address {
   font-family: 'Gagalin-Regular', Helvetica, sans-serif;
   margin-bottom: 1.875rem;
   font-size: 0.875rem; }
+  @media screen and (max-width: 768px) {
+    .reviews__title {
+      margin-bottom: 0.625rem; } }
   @media screen and (max-width: 480px) {
     .reviews__title {
       font-size: 1.25rem; } }
