@@ -23,7 +23,6 @@
   margin-bottom: rem(15px);
 
 	@include phones {
-		float: none;
 		width: 100%;
 		text-align: center;
 	}
@@ -39,6 +38,14 @@
 	@include ubuntu(bold);
 	text-decoration: none;
 	font-size: rem(14px);
+	font-style: normal;
+}
+
+.footer__phone-icon {
+	width: rem(10px);
+	height: rem(10px);
+	display: inline-block;
+	margin-right: 5px;
 }
 
 .footer__col_right {

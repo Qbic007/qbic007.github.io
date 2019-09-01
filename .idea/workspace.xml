@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8a33e2-9434-42bd-b4f2-ce055d62da81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/burgers/css/blocks/icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burgers/css/blocks/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/burgers/img/icons/vk.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/best.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/best.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/socials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/socials.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burgers/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/img/sprite/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/img/sprite/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/misc/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/misc/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burgers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,15 +16,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="192">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/burgers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="69">
+              <caret line="468" column="45" lean-forward="true" selection-start-line="468" selection-start-column="45" selection-end-line="468" selection-end-column="45" />
               <folding>
+                <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#2;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#3;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#4;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#5;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#6;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#7;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#symbol#9;n#svg#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/css/misc/layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/css/misc/normalize.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/css/blocks/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/css/misc/media.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/css/blocks/socials.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -56,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/burgers/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -65,16 +116,16 @@
         <entry file="file://$PROJECT_DIR$/burgers/css/blocks/title.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burgers/css/blocks/hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="182">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -121,6 +172,11 @@
       <find>logo</find>
       <find>hero</find>
       <find>10%</find>
+      <find>socials__link-icon</find>
+      <find>socials</find>
+      <find>float</find>
+      <find>width: 100%</find>
+      <find>inline</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,11 +218,14 @@
         <option value="$USER_HOME$/Downloads/demo.html" />
         <option value="$PROJECT_DIR$/burgers/css/blocks/icon.scss" />
         <option value="$PROJECT_DIR$/burgers/css/blocks/best.scss" />
-        <option value="$PROJECT_DIR$/burgers/index.html" />
         <option value="$PROJECT_DIR$/burgers/css/blocks/logo.scss" />
         <option value="$PROJECT_DIR$/burgers/css/main.scss" />
         <option value="$PROJECT_DIR$/burgers/css/blocks/title.scss" />
         <option value="$PROJECT_DIR$/burgers/css/blocks/hero.scss" />
+        <option value="$PROJECT_DIR$/burgers/css/misc/layout.scss" />
+        <option value="$PROJECT_DIR$/burgers/css/blocks/socials.scss" />
+        <option value="$PROJECT_DIR$/burgers/css/blocks/footer.scss" />
+        <option value="$PROJECT_DIR$/burgers/index.html" />
       </list>
     </option>
   </component>
@@ -206,6 +265,13 @@
               <item name="burgers" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qbic007.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qbic007.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="burgers" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qbic007.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -266,12 +332,12 @@
       <workItem from="1563124178973" duration="7259000" />
       <workItem from="1563343187013" duration="1253000" />
       <workItem from="1563726144477" duration="10607000" />
-      <workItem from="1567329164469" duration="5541000" />
+      <workItem from="1567329164469" duration="7139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52625000" />
+    <option name="totallyTimeSpent" value="54223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="392" width="1609" height="467" extended-state="0" />
@@ -302,41 +368,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/pagination.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/reviews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/socials.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/banner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/breadcrumbs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coworking/css/blocks/review-form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -531,16 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/burgers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/burgers/css/blocks/logo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -551,21 +572,77 @@
     <entry file="file://$PROJECT_DIR$/burgers/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/burgers/css/blocks/title.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/burgers/css/blocks/hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="182">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/misc/normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/misc/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/blocks/socials.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/misc/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/blocks/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="468" column="45" lean-forward="true" selection-start-line="468" selection-start-column="45" selection-end-line="468" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#0;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#1;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#2;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#3;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#4;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#5;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#6;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#7;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#symbol#9;n#svg#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
