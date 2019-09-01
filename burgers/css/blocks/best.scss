@@ -25,6 +25,9 @@
   padding: 0 rem(15px);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   @include phones {
     flex-direction: row;
     width: 100%;
@@ -33,6 +36,8 @@
 }
 
 .best__picture {
+  width: rem(97px);
+  height: rem(89px);
   margin-bottom: rem(25px);
   @include phones {
     margin-right: rem(20px);

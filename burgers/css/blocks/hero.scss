@@ -12,7 +12,7 @@
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .hero__left,
@@ -24,7 +24,7 @@
 }
 
 .hero__right {
-  padding-top: rem(115px);
+  padding-top: rem(145px);
   @include tablets {
     text-align: center;
     padding: rem(30px) 20% 0;
