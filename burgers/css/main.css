@@ -765,7 +765,7 @@ address {
   line-height: 1; }
   .title--color--black {
     color: #2f3234; }
-  .title--color--yellow {
+  .title--color--white {
     color: white; }
   .title--centered {
     text-align: center; }
@@ -877,33 +877,63 @@ address {
 
 .menu-acco {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   right: 0;
   top: 0;
   bottom: 0; }
 
 .menu-acco__item {
-  float: left;
-  height: 100%; }
-  .menu-acco__item.active .menu-acco__trigger-text {
-    color: #f9b43b; }
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 5rem; }
+  .menu-acco__item.active {
+    width: 27.5rem; }
+    .menu-acco__item.active .menu-acco__trigger-text {
+      color: #f9b43b; }
 
 .menu-acco__trigger {
   width: 5rem;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   height: 100%;
-  float: left;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   text-decoration: none;
-  position: relative;
-  -webkit-filter: brightness(70%);
-  filter: brightness(70%); }
+  position: relative; }
   @media screen and (max-width: 480px) {
     .menu-acco__trigger {
       width: 3.125rem; } }
+  .menu-acco__trigger:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2f3234;
+    opacity: 0.5;
+    z-index: 10; }
 
 .menu-acco__trigger-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 26.25rem;
   font-size: 2.5rem;
   color: #fff;
   font-family: 'Gagalin-Regular', Helvetica, sans-serif;
@@ -918,16 +948,24 @@ address {
   transform-origin: 0 0;
   left: 50%;
   top: 100%;
-  margin-top: -1.25rem; }
+  margin-top: -1.25rem;
+  z-index: 20; }
   @media screen and (max-width: 480px) {
     .menu-acco__trigger-text {
       font-size: 1.625rem; } }
 
 .menu-acco__content {
   height: 100%;
-  float: left;
   background: rgba(47, 50, 52, 0.93);
-  width: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: hidden; }
 
 .menu-acco__text {
@@ -936,9 +974,8 @@ address {
   font-size: 0.875rem;
   color: #fff;
   padding: 3.75rem 1.875rem;
-  width: 100%;
-  line-height: 1.8;
-  display: none; }
+  width: 25rem;
+  line-height: 1.8; }
   @media screen and (max-width: 480px) {
     .menu-acco__text {
       padding: 1.5625rem 0.9375rem; } }
