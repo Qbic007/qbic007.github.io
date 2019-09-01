@@ -393,11 +393,11 @@ template {
 [hidden] {
   display: none; }
 
-.menu-acco:before, .team-acco__content:before, .order__form:before, .menu-acco:after, .team-acco__content:after, .order__form:after {
+.menu-acco:before, .team-acco__content:before, .menu-acco:after, .team-acco__content:after {
   content: "";
   display: table; }
 
-.menu-acco:after, .team-acco__content:after, .order__form:after {
+.menu-acco:after, .team-acco__content:after {
   clear: both; }
 
 @font-face {
@@ -728,19 +728,26 @@ address {
   font-weight: 500; }
 
 .button {
+  border: none;
   padding: 0.75rem 0.9375rem;
   border-radius: 0.3125rem;
   background: #e45028;
   text-transform: uppercase;
   color: #fff;
-  font-size: 0.8125rem; }
+  font-size: 0.8125rem;
+  outline: none;
+  cursor: pointer; }
   .button:hover {
     background: #c1401e; }
-
-.button--gray {
-  background: #2f3234; }
-  .button--gray:hover {
-    background: #1f2122; }
+  .button--clear {
+    background: transparent;
+    text-transform: none; }
+    .button--clear:hover {
+      background: transparent; }
+  .button--gray {
+    background: #2f3234; }
+    .button--gray:hover {
+      background: #1f2122; }
 
 .title {
   font-size: 4.5rem;
@@ -1185,25 +1192,40 @@ address {
   .order .title {
     text-align: center; }
 
-.order__form {
-  margin-left: -5%; }
+@media screen and (max-width: 768px) {
+  .order__form {
+    margin-left: 0;
+    padding: 0 20%; } }
+
+@media screen and (max-width: 480px) {
+  .order__form {
+    padding: 0; } }
+
+.order__form-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
   @media screen and (max-width: 768px) {
-    .order__form {
-      margin-left: 0;
-      padding: 0 20%; } }
-  @media screen and (max-width: 480px) {
-    .order__form {
-      padding: 0; } }
+    .order__form-tag {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .order__form-col {
-  float: left;
-  width: 45%;
-  margin-left: 5%; }
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 3%; }
   @media screen and (max-width: 768px) {
     .order__form-col {
       width: 100%;
-      float: none;
       margin-left: 0; } }
+  .order__form-col:last-child {
+    margin-right: 0; }
 
 .order__form-row {
   margin-bottom: 1rem;
@@ -1212,7 +1234,10 @@ address {
   display: flex; }
   @media screen and (max-width: 480px) {
     .order__form-row {
-      margin-bottom: 0.4375rem; } }
+      margin-bottom: 1.5625rem;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
 
 .order__form-label {
   margin-bottom: 1.0625rem;
@@ -1226,11 +1251,13 @@ address {
 
 .order__form-input {
   font-size: 0.875rem;
-  padding: 0.625rem;
-  padding: 0.3125rem 0.625rem;
-  border: 0.0625rem solid #d1cfcb;
+  padding: 0.5625rem 1.25rem;
   border-radius: 0.3125rem;
-  width: 100%; }
+  width: 100%;
+  border: solid 2px transparent;
+  outline: none; }
+  .order__form-input:focus {
+    border-color: #f9b43b; }
 
 .order__form-block {
   display: block;
@@ -1252,12 +1279,8 @@ address {
   height: 6.875rem;
   resize: none; }
 
-@media screen and (max-width: 480px) {
-  .order__form-buttons .order__form-row {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-bottom: 1.0625rem; } }
+.order__button {
+  margin-right: 0.625rem; }
 
 .order__radio {
   position: relative;
@@ -1315,30 +1338,14 @@ address {
   background: transparent; }
 
 .order__radio_checkbox .order__radio-elem:checked + .order__radio-fake:after {
-  background: url("../img/icons/check.svg") 50% no-repeat transparent;
-  background-size: contain;
+  background: url("../img/icons/check.png") 50% no-repeat transparent;
+  background-size: cover;
   width: 0.6875rem;
   height: 0.5625rem; }
 
-.order__form-button {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 1.25rem;
-  border: 0;
-  background: #e45028;
-  font-size: 0.8125rem;
-  text-transform: uppercase;
-  border-radius: 0.3125rem;
-  color: #ffffff;
-  font-family: 'Ubuntu', Helvetica, sans-serif;
-  padding: 0.625rem 0.9375rem;
-  cursor: pointer; }
-
-.order__form-button_reset {
-  padding-left: 0;
-  padding-right: 0;
-  text-transform: none;
-  background: transparent; }
+@media screen and (max-width: 480px) {
+  .order__form-block--hidden {
+    display: none; } }
 
 .map {
   position: relative; }

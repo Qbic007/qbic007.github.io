@@ -9,8 +9,6 @@
 }
 
 .order__form {
-  @extend %clearfix;
-  margin-left: -5%;
   @include tablets {
     margin-left: 0;
     padding: 0 20%;
@@ -20,14 +18,24 @@
   }
 }
 
+.order__form-tag {
+  display: flex;
+  justify-content: space-between;
+  @include tablets {
+    flex-direction: column;
+  }
+}
+
 .order__form-col {
-  float: left;
-  width: 45%;
-  margin-left: 5%;
+  flex: 1;
+  margin-right: 3%;
   @include tablets {
     width: 100%;
-    float: none;
     margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 
@@ -35,7 +43,8 @@
   margin-bottom: rem(16px);
   display: flex;
   @include phones {
-    margin-bottom: rem(7px);
+    margin-bottom: rem(25px);
+    justify-content: center;
   }
 }
 
@@ -51,11 +60,15 @@
 
 .order__form-input {
   font-size: rem(14px);
-  padding: rem(10px);
-  padding: rem(5px) rem(10px);
-  border: rem(1px) solid #d1cfcb;
+  padding: rem(9px) rem(20px);
   border-radius: rem(5px);
   width: 100%;
+  border: solid 2px transparent;
+  outline: none;
+
+  &:focus {
+    border-color: $main-yellow;
+  }
 }
 
 .order__form-block {
@@ -84,13 +97,8 @@
   resize: none;
 }
 
-.order__form-buttons {
-  @include phones {
-    .order__form-row {
-      justify-content: center;
-      margin-bottom: rem(17px);
-    }
-  }
+.order__button {
+  margin-right: rem(10px);
 }
 
 .order__radio {
@@ -159,8 +167,8 @@
   .order__radio-elem:checked {
     &+.order__radio-fake {
       &:after {
-        background: url("../img/icons/check.svg") 50% no-repeat transparent;
-        background-size: contain;
+        background: url("../img/icons/check.png") 50% no-repeat transparent;
+        background-size: cover;
         width: rem(11px);
         height: rem(9px);
       }
@@ -168,23 +176,8 @@
   }
 }
 
-.order__form-button {
-  @include inlineblock(middle);
-  margin-right: rem(20px);
-  border: 0;
-  background: $main-orange;
-  font-size: rem(13px);
-  text-transform: uppercase;
-  border-radius: rem(5px);
-  color: #ffffff;
-  @include ubuntu(middle);
-  padding: rem(10px) rem(15px);
-  cursor: pointer;
-}
-
-.order__form-button_reset {
-  padding-left: 0;
-  padding-right: 0;
-  text-transform: none;
-  background: transparent;
+.order__form-block--hidden {
+  @include phones {
+    display: none;
+  }
 }

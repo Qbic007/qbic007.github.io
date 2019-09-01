@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8a33e2-9434-42bd-b4f2-ce055d62da81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/burgers/img/icons/check.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/socials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/socials.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/blocks/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/blocks/order.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burgers/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burgers/css/misc/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/misc/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burgers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="192">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burgers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="468" column="45" lean-forward="true" selection-start-line="468" selection-start-column="45" selection-end-line="468" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="455" column="57" selection-start-line="455" selection-start-column="44" selection-end-line="455" selection-end-column="57" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
@@ -41,6 +41,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/css/blocks/button.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/burgers/css/blocks/order.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="168" column="15" lean-forward="true" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/burgers/css/misc/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -53,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/burgers/css/misc/normalize.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -80,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/burgers/css/blocks/socials.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -174,9 +192,21 @@
       <find>10%</find>
       <find>socials__link-icon</find>
       <find>socials</find>
-      <find>float</find>
       <find>width: 100%</find>
       <find>inline</find>
+      <find>order__form-input</find>
+      <find>float</find>
+      <find>placeholder=&quot;&quot;</find>
+      <find>phone-mask</find>
+      <find>-5%</find>
+      <find>alig</find>
+      <find>name=&quot;&quot;</find>
+      <find>.button</find>
+      <find>order__form-button_reset</find>
+      <find>button--clear</find>
+      <find>order__form-button</find>
+      <find>butto</find>
+      <find>icons/check.svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,14 +256,16 @@
         <option value="$PROJECT_DIR$/burgers/css/blocks/socials.scss" />
         <option value="$PROJECT_DIR$/burgers/css/blocks/footer.scss" />
         <option value="$PROJECT_DIR$/burgers/index.html" />
+        <option value="$PROJECT_DIR$/burgers/css/blocks/button.scss" />
+        <option value="$PROJECT_DIR$/burgers/css/blocks/order.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="y" value="392" />
+    <option name="y" value="385" />
     <option name="width" value="1609" />
-    <option name="height" value="467" />
+    <option name="height" value="474" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -284,6 +316,13 @@
               <item name="qbic007.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="burgers" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qbic007.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qbic007.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="burgers" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="sprite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -300,9 +339,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\sprite" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
+      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\sprite" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\coworking" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\coworking\css\blocks" />
     </key>
@@ -332,22 +374,22 @@
       <workItem from="1563124178973" duration="7259000" />
       <workItem from="1563343187013" duration="1253000" />
       <workItem from="1563726144477" duration="10607000" />
-      <workItem from="1567329164469" duration="7139000" />
+      <workItem from="1567329164469" duration="11462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54223000" />
+    <option name="totallyTimeSpent" value="58546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="392" width="1609" height="467" extended-state="0" />
+    <frame x="-7" y="385" width="1609" height="474" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23111685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32844576" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -368,20 +410,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/review-form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coworking/css/blocks/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coworking/css/blocks/header-banner.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -593,7 +621,7 @@
     <entry file="file://$PROJECT_DIR$/burgers/css/misc/normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -607,7 +635,7 @@
     <entry file="file://$PROJECT_DIR$/burgers/css/blocks/socials.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -627,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/burgers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="468" column="45" lean-forward="true" selection-start-line="468" selection-start-column="45" selection-end-line="468" selection-end-column="45" />
+        <state relative-caret-position="161">
+          <caret line="455" column="57" selection-start-line="455" selection-start-column="44" selection-end-line="455" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
@@ -643,6 +671,20 @@
             <element signature="n#symbol#8;n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#symbol#9;n#svg#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/blocks/button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/css/blocks/order.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="168" column="15" lean-forward="true" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
         </state>
       </provider>
     </entry>
