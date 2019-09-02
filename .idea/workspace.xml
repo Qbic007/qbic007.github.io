@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8a33e2-9434-42bd-b4f2-ce055d62da81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js-tasks/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/burgers/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/burgers/css/main.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,40 +16,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>order__form-button</find>
-      <find>butto</find>
-      <find>icons/check.svg</find>
-      <find>.reviews__hover-container</find>
-      <find>order__form-row</find>
-      <find>order__button</find>
-      <find>&lt;button type=&quot;button&quot; class=&quot;button button--gray&quot;&gt;Подробнее&lt;/button&gt;</find>
-      <find>button--view--desctop</find>
-      <find>&gt;Читать&lt;</find>
-      <find>button--hidden</find>
-      <find>title_white</find>
-      <find>title</find>
-      <find>title--color</find>
-      <find>menu__title</find>
-      <find>befor</find>
-      <find>menu-acco__item</find>
-      <find>menu-acco__content</find>
-      <find>filte</find>
-      <find>rem(80px)</find>
-      <find>menu-acco__trigger-text</find>
-      <find>active</find>
-      <find>team-acco__content--active</find>
-      <find>float</find>
-      <find>before</find>
-      <find>.menu-acco:before, .team-acco__content:before, .menu-acco:after, .team-acco__content:after</find>
-      <find>table</find>
-      <find>team__section</find>
-      <find>team-acco__content</find>
-      <find>team-acco__text</find>
-      <find>.team-acco__content</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,14 +35,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\sprite" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\coworking" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\coworking\css\blocks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
