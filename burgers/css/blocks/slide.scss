@@ -1,0 +1,123 @@
+.slide {
+  background: url('../img/bg/slider.jpg') no-repeat;
+  background-size: cover;
+}
+
+.slide__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.slide__compound {
+  position: absolute;
+  width: rem(90px);
+  height: rem(90px);
+  background: $light-orange;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 19%;
+  left: 0;
+  cursor: pointer;
+}
+
+.slide__compound-icon {
+  height: rem(45px);
+  width: rem(45px);
+}
+
+.slide__compound-text {
+  @include gagalin();
+  color: white;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.slide__caloric {
+  position: absolute;
+  width: rem(90px);
+  height: rem(90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 19%;
+  left: 0;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+  @include gagalin();
+  opacity: 0.5;
+}
+
+.slide__caloric-icon {
+  height: rem(60px);
+  width: rem(60px);
+  position: relative;
+}
+
+.slide__caloric-value {
+  font-size: 20px;
+  position: absolute;
+  bottom: 19%;
+  width: 100%;
+}
+
+.slide__img-container {
+  flex: 1;
+}
+
+.slide__content-container {
+  flex: 1;
+  padding-left: rem(25px);
+}
+
+.burger__title {
+  margin-bottom: rem(55px);
+}
+
+.slide__content {
+  @include ubuntu();
+  color: white;
+  font-size: rem(14px);
+  line-height: rem(24px);
+  margin-bottom: rem(40px);
+}
+
+.slide__order-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slide__price {
+  @include gagalin();
+  font-size: rem(72px);
+  line-height: rem(28px);
+  color: $main-orange;
+  text-transform: lowercase;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.slide__price-value {
+  align-self: baseline;
+  margin-right: rem(10px);
+}
+
+.slide__price-rub {
+  align-self: baseline;
+  font-size: rem(26px);
+  margin-right: rem(30px);
+}
+
+.slide__order-button {
+  align-self: flex-end;
+  margin-top: rem(20px);
+}

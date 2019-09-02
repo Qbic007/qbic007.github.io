@@ -1,6 +1,7 @@
 //colors
 $color-hover-button-orange: #c1401e;
 $main-orange: #e45028;
+$light-orange: #f08c33;
 $main-yellow: #f9b43b;
 $main-dark-grey: #2f3234;
 $color-hover-button-grey: #1f2122;
@@ -34,6 +35,7 @@ $desktop: 1200px;
 @import "blocks/scroll-down-button.scss";
 @import "blocks/best.scss";
 @import "blocks/slider.scss";
+@import "blocks/slide.scss";
 @import "blocks/menu.scss";
 @import "blocks/menu-acco.scss";
 @import "blocks/team.scss";
