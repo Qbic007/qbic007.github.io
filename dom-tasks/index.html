@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div class="task1">
+        <h2>Задание 1, 2, 3, 4:</h2>        
+    </div>
+    <div class="task5">
+        <h2>Задание 5:</h2>        
+    </div>
+    <div class="task6">
+        <h2>Задание 6:</h2>
+    </div>
+    <script type="text/javascript">
+        //task 1:
+        //---------------------------------------
+        console.log('Task 1:');
+        
+        var div = document.createElement("div");
+        div.textContent = 'Этот элемент создан при помощи DOM API';
+        
+        var target = document.querySelector('.task1');        
+        target.appendChild(div);
+        
+
+        //task 2:
+        //---------------------------------------
+        console.log('');
+        console.log('Task 2:');
+
+        innerDiv = document.createElement("div");
+        innerDiv.classList.add('inner');
+        innerDiv.textContent = 'Этот элемент тоже создан при помощи DOM API';
+        
+        div.appendChild(innerDiv);
+        
+        //task 3: operator for
+        //---------------------------------------
+        console.log('');
+        console.log('Task 3:');
+        
+        innerDiv.style.color = 'red';
+
+        //task4: functions
+        //---------------------------------------
+        console.log('');
+        console.log('Task 4:');
+        
+        div.style.cursor = 'pointer';
+        div.addEventListener('click', function () {
+            console.log('Этот текст говорит о том, что я всё сделал правильно');            
+        });
+
+        //task5: functions
+        //---------------------------------------
+        console.log('');
+        console.log('Task 5:');
+
+        var elem = document.createElement("a");
+        elem.href = 'https://loftschool.com';
+        elem.textContent = 'https://loftschool.com';
+        target = document.querySelector('.task5');
+        target.append(elem);
+        elem.addEventListener('click', function (element) {
+            console.log('Я кликнул на ссылку ', elem.href);
+            element.preventDefault();
+        });
+
+        //task6: functions
+        //---------------------------------------
+        console.log('');
+        console.log('Task 6:');
+        
+        var button = document.createElement("button");
+        var input = document.createElement("input");
+        input.placeholder = 'Введите текст';
+        button.textContent = 'Вывести текст в консоль';
+        target = document.querySelector('.task6');
+        
+        target.appendChild(input);
+        target.appendChild(button);
+        
+        button.addEventListener('click', function (element) {
+            element.preventDefault();
+            console.log(input.value);
+        })
+
+        //task7: functions
+        //---------------------------------------
+        console.log('');
+        console.log('Task 7:');
+    </script>
+</body>
+</html>
