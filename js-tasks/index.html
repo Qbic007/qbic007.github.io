@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //task 1: types
+        //---------------------------------------
+        console.log('Task 1:');
+        var name = 'Сергей';
+        console.log(name);
+        name = 'Александр';
+        console.log(name);
+
+        //task 2: operator if
+        //---------------------------------------
+        console.log('');
+        console.log('Task 2:');
+        if (1 > 0) {
+            console.log('Любая фраза');
+        }
+
+        if (1 < 0) {
+            console.log('Любая фраза');
+        }
+
+        if (1 < 0) {
+            console.log('Любая фраза');
+        } else {
+            console.log('Условие ложное');
+        }
+
+        //task 3: operator for
+        //---------------------------------------
+        console.log('');
+        console.log('Task 3:');
+        for (var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        //task4: functions
+        //---------------------------------------
+        console.log('');
+        console.log('Task 4:');
+
+        function sum(a, b, c) {
+            var sum = a + b + c;
+
+            return sum;
+        }
+
+        var result = sum(10, 20, 30);
+        console.log('10 + 20 + 30 = ', result);
+
+        result = sum(45, 1, -1);
+        console.log('45 + 1 + (-1)) = ', result);
+
+        //---------------------------------------
+        //arrays
+        //---------------------------------------        
+        console.log('arrays:');
+
+        //task 1:
+        //---------------------------------------
+        console.log('');
+        console.log('task 1:');
+
+        var message = ['Привет', 'Loftschool'];
+
+        console.log('message.length = ', message.length);
+
+        for (i = 0; i < message.length; i++) {
+            console.log(message[i]);
+        }
+
+        //task 2:
+        //---------------------------------------
+        console.log('');
+        console.log('task 2:');
+        var array = [];
+        array.push(1, 200, 3, 400, 5, 600, 7, 800, 9, -10);
+
+        console.log('Элеменаты массива ', array, 'значение которых больше 100:');
+        for (i = 0; i < array.length; i++) {
+            var elem = array[i];
+            if (elem > 100) {
+                console.log(elem);
+            }
+        }
+
+        //task 3:
+        //---------------------------------------
+        console.log('');
+        console.log('task 3:');
+
+        var object = {
+            name: 'Сергей',
+            lastName: 'Першин',
+            age: 31
+        };
+
+        console.log('Свойства объекта ', object, ':');
+        console.log(object.name);
+        console.log(object.lastName);
+        console.log(object.age);
+
+        //task 4:
+        //---------------------------------------
+        console.log('');
+        console.log('task 4:');
+
+        function hello(human) {
+            return 'Привет, меня зовут ' + human.name + ' ' + human.lastName + ' и мне ' + human.age + ' год!';
+        }
+        
+        result = hello(object);
+        console.log(result);
+    </script>
+</body>
+</html>
