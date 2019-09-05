@@ -1402,6 +1402,15 @@ address {
   width: 27.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  .menu-acco__item.active {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: unset;
+  }
+}
+
 .menu-acco__item.active .menu-acco__trigger-text {
   color: #f9b43b;
 }
@@ -1420,12 +1429,6 @@ address {
   background-repeat: no-repeat;
   text-decoration: none;
   position: relative;
-}
-
-@media screen and (max-width: 480px) {
-  .menu-acco__trigger {
-    width: 3.125rem;
-  }
 }
 
 .menu-acco__trigger:after {
@@ -1500,6 +1503,7 @@ address {
 @media screen and (max-width: 480px) {
   .menu-acco__text {
     padding: 1.5625rem 0.9375rem;
+    width: auto;
   }
 }
 

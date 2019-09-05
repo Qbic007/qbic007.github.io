@@ -20,6 +20,12 @@ $li-width: $content-width + rem(20px);
 
   &.active {
     width: $li-width;
+
+    @include phones() {
+      flex: 1;
+      width: unset;
+    }
+    
     .menu-acco__trigger-text {
       color: $main-yellow;
     }
@@ -34,10 +40,6 @@ $li-width: $content-width + rem(20px);
   @include cover;
   text-decoration: none;
   position: relative;
-
-  @include phones {
-    width: rem(50px);
-  }
 
   &:after {
     content: "";
@@ -93,5 +95,6 @@ $li-width: $content-width + rem(20px);
 
   @include phones {
     padding: rem(25px) rem(15px);
+    width: auto;
   }
 }
