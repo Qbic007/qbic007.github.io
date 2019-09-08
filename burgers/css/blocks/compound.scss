@@ -16,7 +16,7 @@ $compound-side: rem(90px);
 
   &:hover {
     ~ .ingredients {
-      display: unset;
+      display: flex;
     }
   }
 }

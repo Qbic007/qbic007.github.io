@@ -1,4 +1,5 @@
 //colors
+$close-cross-orange: #eb8262;
 $color-hover-button-orange: #c1401e;
 $main-orange: #e45028;
 $light-orange: #f08c33;
@@ -38,6 +39,7 @@ $desktop: 1200px;
 @import "blocks/slide.scss";
 @import "blocks/compound.scss";
 @import "blocks/ingredients.scss";
+@import "blocks/close-cross.scss";
 @import "blocks/caloric.scss";
 @import "blocks/menu.scss";
 @import "blocks/menu-acco.scss";
