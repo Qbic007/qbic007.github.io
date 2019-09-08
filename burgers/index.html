@@ -8,6 +8,8 @@
     <title>Главная страница
     </title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
@@ -49,7 +51,7 @@
                         </nav>
                     </div>
                     <button type="button" class="button">Заказать</button>
-                    <a class="hamburger-menu-link" href="">
+                    <a class="hamburger-menu-link" href="#" id="hamburgerMenuLink">
                         <div class="hamburger-menu-link__bars"></div>
                     </a>
                 </div>
@@ -705,29 +707,33 @@
         </footer>
     </section>
 
-    <div class="hamburger-menu" id="hamburger-menu">
-        <div class="hamburger-menu__logo"><a class="logo" href="#"><img src="./img/icons/logo.svg"></a></div>
+    <div class="hamburger-menu" id="hamburgerMenu">
+        <div class="hamburger-menu__logo">
+            <a class="logo" href="#">
+                <img src="./img/icons/logo.svg">
+            </a>
+        </div>
         <div class="hamburger-menu__items">
             <nav class="nav nav_hamburger">
                 <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="" data-scroll-to="1">о нас</a>
+                    <li class="nav__item"><a class="nav__link" href="#">о нас</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-scroll-to="2">бургеры</a>
+                    <li class="nav__item"><a class="nav__link" href="#">бургеры</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-scroll-to="3">команда</a>
+                    <li class="nav__item"><a class="nav__link" href="#">команда</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-scroll-to="4">меню</a>
+                    <li class="nav__item"><a class="nav__link" href="#">меню</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-scroll-to="5">отзывы</a>
+                    <li class="nav__item"><a class="nav__link" href="#">отзывы</a>
                     </li>
-                    <li class="nav__item"><a class="nav__link" href="" data-scroll-to="7">контакты</a>
+                    <li class="nav__item"><a class="nav__link" href="#">контакты</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <a class="hamburger-menu__close" href="#">
-            <svg class="hamburger-menu__close-icon">
-                <use xlink:href="./img/sprite/sprite.svg#close"></use>
+            <svg class="hamburger-menu__close-icon" id="closeHamburgerMenu">
+                <use xlink:href="#cross"></use>
             </svg>
         </a>
     </div>

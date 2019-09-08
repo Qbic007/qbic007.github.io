@@ -681,7 +681,6 @@ address {
     .nav_hamburger .nav__item {
       display: block;
       text-align: center;
-      opacity: 0;
       -webkit-animation-fill-mode: forwards;
       animation-fill-mode: forwards; }
       .nav_hamburger .nav__item:after {
@@ -697,7 +696,17 @@ address {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .nav__list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      height: 100vh; } }
 
 .nav__item {
   display: -webkit-box;
@@ -726,6 +735,12 @@ address {
   font-size: 0.8125rem;
   text-transform: uppercase;
   font-weight: 500; }
+  @media screen and (max-width: 768px) {
+    .nav__link {
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 39px;
+      font-weight: 300; } }
 
 .button {
   border: none;
@@ -1857,7 +1872,6 @@ address {
   -ms-flex-pack: center;
   justify-content: center;
   z-index: 100;
-  display: none;
   -webkit-transition: opacity .3s;
   -o-transition: opacity .3s;
   transition: opacity .3s; }
