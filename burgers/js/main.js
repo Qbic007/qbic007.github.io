@@ -1,14 +1,21 @@
 $(document).ready(function () {
-    var closeHamburgerMenu = $('#closeHamburgerMenu');
-
+    let closeHamburgerMenu = $('#closeHamburgerMenu');
     closeHamburgerMenu.on('click', function () {
-        $(this).parents('#hamburgerMenu').hide();
+        $('#hamburgerMenu').hide();
     });
 
-    var hamburgerMenuLink = $('hamburgerMenuLink');
-
+    let hamburgerMenuLink = $('#hamburgerMenuLink');
     hamburgerMenuLink.on('click', function () {
-        $(this).parents('body').find('#hamburgerMenu').show();
-        return false;
+        $('#hamburgerMenu').show();
+    });
+    
+    let ingredientsCloseIcon = $('#ingredientsCloseIcon');
+    ingredientsCloseIcon.on('click', function () {
+        $('#ingredients').hide();
+    });
+    
+    let compound = $('#compound');
+    compound.on('click', function () {
+        $('#ingredients').show();
     });
 });
