@@ -15,7 +15,7 @@
     margin-bottom: 0;
   }
 
-  &.active {
+  &.open {
     .team-acco__trigger {
       color: $main-yellow;
 
@@ -27,6 +27,7 @@
 }
 
 .team-acco__trigger {
+  outline: none;
   color: #fff;
   font-size: rem(14px);
   @include gagalin;

@@ -9,6 +9,7 @@
     </title>
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/jquery.accordable.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
 
@@ -308,9 +309,11 @@
     <section class="section team">
         <div class="team__section">
             <h2 class="title">Команда</h2>
-            <ul class="team-acco">
-                <li class="team-acco__item active">
-                    <a class="team-acco__trigger" href="#">дэниэл редклифф</a>
+            <ul class="team-acco" id="teamAcco">
+                <li class="team-acco__item">
+                    <span>
+                        <button class="team-acco__trigger">дэниэл редклифф</button>
+                    </span>
                     <div class="team-acco__content">
                         <div class="team-acco__pic">
                             <div class="team-acco__img"
@@ -324,7 +327,10 @@
                         </div>
                     </div>
                 </li>
-                <li class="team-acco__item"><a class="team-acco__trigger" href="#">ричард джеймс</a>
+                <li class="team-acco__item">
+                    <span>
+                        <button class="team-acco__trigger">ричард джеймс</button>
+                    </span>
                     <div class="team-acco__content">
                         <div class="team-acco__pic">
                             <div class="team-acco__img"
@@ -338,7 +344,10 @@
                         </div>
                     </div>
                 </li>
-                <li class="team-acco__item"><a class="team-acco__trigger" href="#">Джейк Финн</a>
+                <li class="team-acco__item">
+                    <span>
+                        <button class="team-acco__trigger">Джейк Финн</button>
+                    </span>
                     <div class="team-acco__content">
                         <div class="team-acco__pic">
                             <div class="team-acco__img"
@@ -352,7 +361,10 @@
                         </div>
                     </div>
                 </li>
-                <li class="team-acco__item"><a class="team-acco__trigger" href="#">Николай Иванов</a>
+                <li class="team-acco__item">
+                    <span>
+                        <button class="team-acco__trigger">Николай Иванов</button>
+                    </span>
                     <div class="team-acco__content">
                         <div class="team-acco__pic">
                             <div class="team-acco__img"
@@ -367,6 +379,16 @@
                     </div>
                 </li>
             </ul>
+            <script>
+                (function () {
+
+                    $('#teamAcco').accordable({
+                        speed: 300,
+                        addClasses: true,
+                    });
+
+                })();
+            </script>
         </div>
     </section>
 
