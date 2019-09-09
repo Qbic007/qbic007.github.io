@@ -18,4 +18,10 @@ $(document).ready(function () {
     compound.on('click', function () {
         $('#ingredients').show();
     });
+
+    $('#teamAcco').accordable({
+        speed: 300,
+        addClasses: true,
+        easing: 'swing'
+    });
 });

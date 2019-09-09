@@ -73,7 +73,7 @@
   }
 }
 
-.active .team-acco__content {
+.open .team-acco__content {
   display: flex;
 
   @include tablets() {
