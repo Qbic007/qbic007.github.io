@@ -1470,6 +1470,9 @@ address {
   justify-content: center; }
   @media screen and (max-width: 768px) {
     .nav__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       flex-direction: column;
       height: 100vh; } }
 
@@ -1512,7 +1515,8 @@ address {
   color: #fff;
   font-size: 0.40625rem;
   outline: none;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 3000; }
   .button:hover {
     background: #c1401e; }
   .button--clear {
@@ -1554,7 +1558,8 @@ address {
   position: absolute;
   bottom: 0.625rem;
   left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  outline: none; }
 
 .best {
   background: url("images/bg/best.jpg") no-repeat;
@@ -1658,7 +1663,7 @@ address {
   transform: rotate(-90deg); }
 
 .slide {
-  background: url("images/bg/slider.jpg") no-repeat;
+  background: linear-gradient(to bottom, #F9B33B 48%, #EA8C38 74%, #F9B33B 100%);
   background-size: cover;
   padding: 0 2.1875rem;
   height: 100vh;
@@ -1682,8 +1687,9 @@ address {
       flex-direction: column;
       height: 50%; } }
 
-.slide__img {
-  max-height: 10rem; }
+@media screen and (max-width: 768px) {
+  .slide__img {
+    max-height: 7.8125rem; } }
 
 .slide__img-container {
   flex: 1;
@@ -1898,8 +1904,9 @@ address {
   display: flex;
   width: 2.5rem; }
   .menu-acco__item.active {
-    width: 13.75rem; }
-    @media screen and (max-width: 480px) {
+    width: 20rem;
+    transition: 0.5s; }
+    @media screen and (max-width: 768px) {
       .menu-acco__item.active {
         flex: 1;
         width: unset; } }
@@ -1930,7 +1937,7 @@ address {
 .menu-acco__trigger-text {
   display: flex;
   justify-content: flex-start;
-  width: 13.125rem;
+  width: 19.375rem;
   font-size: 1.25rem;
   color: #fff;
   font-family: 'Gagalin-Regular', Helvetica, sans-serif;
@@ -1961,9 +1968,9 @@ address {
   font-size: 0.4375rem;
   color: #fff;
   padding: 1.875rem 0.9375rem;
-  width: 12.5rem;
+  width: 18.75rem;
   line-height: 1.8; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .menu-acco__text {
       padding: 0.78125rem 0.46875rem;
       width: auto; } }
@@ -2014,7 +2021,7 @@ address {
 
 .team-acco__item {
   margin-bottom: 1.25rem;
-  transition: height 2s; }
+  transition: 0.5s; }
   @media screen and (max-width: 768px) {
     .team-acco__item {
       margin-bottom: 0.9375rem; } }
@@ -2203,7 +2210,8 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center center; }
+  background-position: center center;
+  text-align: center; }
   .video .title {
     margin-bottom: 2.5rem; }
     @media screen and (max-width: 768px) {
@@ -2211,7 +2219,10 @@ address {
         margin-bottom: 1.25rem; } }
 
 .video__player {
-  outline: none; }
+  outline: none;
+  width: 18.75rem;
+  height: 12.5rem;
+  max-width: 90vw; }
 
 .order {
   background: url("images/bg/order.jpg") 50% no-repeat;
@@ -2280,6 +2291,8 @@ address {
   width: 100%; }
 
 .order__form-row_double {
+  display: flex;
+  justify-content: space-between;
   margin-left: -0.625rem; }
   .order__form-row_double .order__form-block {
     width: calc(100% / 2 - 20px);
@@ -2447,7 +2460,7 @@ address {
   background: rgba(47, 50, 52, 0.99);
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 3000;
   display: none;
   transition: opacity .3s; }
   .hamburger-menu_visible {
@@ -2534,7 +2547,8 @@ address {
   border-radius: 0.15625rem;
   z-index: 110;
   font-family: 'Ubuntu', Helvetica, sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  animation: modal 0.4s; }
 
 .modal__title-container {
   display: flex;
@@ -2557,6 +2571,64 @@ address {
 .modal__content {
   font-size: 0.4375rem;
   line-height: 0.75rem; }
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: scale(0.7); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+
+.popup {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: none; }
+  .popup:before {
+    position: absolute;
+    content: '';
+    background-color: #2f3234;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    opacity: 0.9; }
+
+.popup__container {
+  position: relative;
+  max-width: 10.9375rem;
+  background-color: white;
+  padding: 0.625rem 0.78125rem;
+  border-radius: 0.15625rem;
+  z-index: 110;
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  font-weight: 300;
+  animation: modal 0.4s; }
+
+.popup__content {
+  font-size: 0.4375rem;
+  line-height: 0.75rem; }
+
+.popup__button-container {
+  margin-top: 0.46875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: scale(0.7); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
 
 .swiper-container {
   width: 100vw !important;
@@ -2585,6 +2657,9 @@ address {
   position: fixed !important;
   right: 3vw !important;
   top: 23% !important; }
+  @media screen and (max-width: 768px) {
+    .swiper-pagination {
+      display: none; } }
 
 .swiper-pagination-bullet {
   background: white !important;
@@ -2592,7 +2667,8 @@ address {
   height: 0.15625rem !important;
   position: relative !important;
   margin: 0.46875rem !important;
-  opacity: 1 !important; }
+  opacity: 1 !important;
+  outline: none !important; }
   .swiper-pagination-bullet-active:before {
     content: '' !important;
     position: absolute !important;
@@ -2602,4 +2678,15 @@ address {
     background-color: transparent !important;
     border: 1px white solid !important;
     top: -0.15625rem !important;
-    left: -0.15625rem !important; }
+    left: -0.15625rem !important;
+    animation: bullet 0.3s; }
+
+@keyframes bullet {
+  from {
+    opacity: 0;
+    transform: scale(0.7); }
+  75% {
+    transform: scale(1.3); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
