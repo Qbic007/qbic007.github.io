@@ -1376,7 +1376,8 @@ address {
       width: 100%; } }
 
 .hero__right {
-  padding-top: 4.53125rem; }
+  padding-top: 4.53125rem;
+  padding-left: 0.9375rem; }
   @media screen and (max-width: 768px) {
     .hero__right {
       text-align: center;
@@ -2196,6 +2197,22 @@ address {
   width: 100%;
   height: 100%; }
 
+.video {
+  background: url("images/bg/video.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center; }
+  .video .title {
+    margin-bottom: 2.5rem; }
+    @media screen and (max-width: 768px) {
+      .video .title {
+        margin-bottom: 1.25rem; } }
+
+.video__player {
+  outline: none; }
+
 .order {
   background: url("images/bg/order.jpg") 50% no-repeat;
   background-size: cover;
@@ -2542,14 +2559,47 @@ address {
   line-height: 0.75rem; }
 
 .swiper-container {
-  width: 100% !important; }
+  width: 100vw !important;
+  height: 100vh !important; }
 
 .swiper-wrapper {
   display: flex;
-  width: 100% !important; }
+  width: 100% !important;
+  height: 100vh !important; }
+  .swiper-wrapper_column {
+    flex-direction: column; }
 
 .swiper-slide {
-  width: 100% !important; }
+  width: 100% !important;
+  height: 100vh !important; }
 
 .swiper-slide-active {
-  width: 100% !important; }
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0 !important; }
+
+.one-page-scroller {
+  position: relative; }
+
+.swiper-pagination {
+  position: fixed !important;
+  right: 3vw !important;
+  top: 23% !important; }
+
+.swiper-pagination-bullet {
+  background: white !important;
+  width: 0.15625rem !important;
+  height: 0.15625rem !important;
+  position: relative !important;
+  margin: 0.46875rem !important;
+  opacity: 1 !important; }
+  .swiper-pagination-bullet-active:before {
+    content: '' !important;
+    position: absolute !important;
+    border-radius: 100% !important;
+    width: 0.40625rem !important;
+    height: 0.40625rem !important;
+    background-color: transparent !important;
+    border: 1px white solid !important;
+    top: -0.15625rem !important;
+    left: -0.15625rem !important; }
