@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1986df37-831f-4ecf-8a08-8f4204965c82" name="Default Changelist" comment="" />
+    <list default="true" id="1986df37-831f-4ecf-8a08-8f4204965c82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="123" />
     <option name="width" value="1612" />
@@ -38,23 +40,6 @@
               <item name="burgers" type="b2602c69:ProjectViewProjectNode" />
               <item name="burgers" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burgers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burgers" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burgers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burgers" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="burgers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="burgers" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -96,15 +81,15 @@
       <option name="presentableId" value="Default" />
       <updated>1568707178080</updated>
       <workItem from="1568707179733" duration="5465000" />
-      <workItem from="1568797000582" duration="2344000" />
+      <workItem from="1568797000582" duration="3012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7809000" />
+    <option name="totallyTimeSpent" value="8477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="123" width="1612" height="737" extended-state="1" />
+    <frame x="-7" y="123" width="1612" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25322166" />
