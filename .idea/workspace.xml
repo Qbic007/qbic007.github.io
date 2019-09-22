@@ -173,11 +173,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
-    <option name="y" value="342" />
+    <option name="y" value="204" />
     <option name="width" value="1612" />
-    <option name="height" value="521" />
+    <option name="height" value="659" />
   </component>
   <component name="ProjectId" id="1Q944V1HwkVGQBdG0ZuAGM37qg4" />
   <component name="ProjectView">
