@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf8a33e2-9434-42bd-b4f2-ce055d62da81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/author.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/bg/mountains.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/content.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/icons/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/icons/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/slider.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/main.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/main.min.js" beforeDir="false" />
-    </list>
+    <list default="true" id="cf8a33e2-9434-42bd-b4f2-ce055d62da81" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +31,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="196" />
+    <option name="x" value="243" />
+    <option name="y" value="144" />
     <option name="width" value="1612" />
     <option name="height" value="659" />
   </component>
@@ -53,6 +42,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,11 +50,15 @@
               <item name="qbic007.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="qbic007.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qbic007.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qbic007.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="ss_test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -75,15 +69,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\qbic007.github.io\ss_test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\sprite" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\coworking" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,16 +109,17 @@
       <workItem from="1568660013134" duration="114000" />
       <workItem from="1569178302688" duration="639000" />
       <workItem from="1569271909312" duration="42000" />
+      <workItem from="1569271958156" duration="318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1399000" />
+    <option name="totallyTimeSpent" value="1717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="196" width="1612" height="659" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564433" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25966495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
