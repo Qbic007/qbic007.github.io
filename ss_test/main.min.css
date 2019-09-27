@@ -1325,6 +1325,9 @@ input[type='submit'], input[type='checkbox'], label {
 .acco {
   margin-bottom: 32px; }
 
+.acco__title-container {
+  cursor: pointer; }
+
 .acco__list {
   display: flex;
   flex-direction: column;

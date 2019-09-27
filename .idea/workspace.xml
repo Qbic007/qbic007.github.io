@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8a33e2-9434-42bd-b4f2-ce055d62da81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss_test/images/icons/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_test/images/icons/arrow-select.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_test/images/icons/checked.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/images/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ss_test/images/icons/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_test/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ss_test/main.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +33,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ss_test" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\ss_test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\sprite" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +74,7 @@
       <workItem from="1569178302688" duration="639000" />
       <workItem from="1569271909312" duration="42000" />
       <workItem from="1569271958156" duration="318000" />
-      <workItem from="1569572569677" duration="605000" />
+      <workItem from="1569572569677" duration="1204000" />
     </task>
     <servers />
   </component>
