@@ -1075,7 +1075,9 @@ input[type='submit'], input[type='checkbox'], label {
   height: 100%;
   display: none;
   opacity: 0;
-  z-index: 1000; }
+  z-index: 1000;
+  border-right: 1px solid #e1e2eb;
+  border-left: 1px solid #e1e2eb; }
 
 .main-menu__container {
   background-color: white;
