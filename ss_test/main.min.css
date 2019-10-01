@@ -910,7 +910,7 @@ input[type='submit'], input[type='checkbox'], label {
   top: 0; }
   @media screen and (max-width: 992px) {
     .overlay {
-      z-index: 10; } }
+      width: 0; } }
 
 .overlay__wrapper {
   position: relative;
@@ -926,7 +926,10 @@ input[type='submit'], input[type='checkbox'], label {
   background-repeat: no-repeat; }
   @media screen and (max-width: 992px) {
     .overlay__wrapper {
-      flex-direction: column-reverse; } }
+      flex-direction: column-reverse;
+      width: 0;
+      overflow: unset;
+      align-items: flex-start; } }
 
 .overlay__container {
   position: relative;
@@ -938,6 +941,7 @@ input[type='submit'], input[type='checkbox'], label {
       flex: 1;
       display: none;
       height: 100%;
+      width: 100vw;
       background-color: white; } }
 
 .aside__box {
@@ -945,7 +949,7 @@ input[type='submit'], input[type='checkbox'], label {
   width: 5vw; }
   @media screen and (max-width: 992px) {
     .aside__box {
-      width: 100%;
+      width: 100vw;
       max-width: unset;
       background-color: white;
       z-index: 2500; } }
