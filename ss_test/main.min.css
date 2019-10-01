@@ -903,53 +903,54 @@ input[type='submit'], input[type='checkbox'], label {
 
 .overlay {
   position: fixed;
-  height: 100vh;
+  height: 0;
   width: 100%;
   margin: auto;
   z-index: 0;
   top: 0; }
   @media screen and (max-width: 992px) {
     .overlay {
-      width: 0; } }
+      width: 0;
+      height: 100vh; } }
 
 .overlay__wrapper {
   position: relative;
   max-width: 45rem;
   width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
+  height: 0;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   background-position: top;
   background-repeat: no-repeat; }
   @media screen and (max-width: 992px) {
     .overlay__wrapper {
       flex-direction: column-reverse;
       width: 0;
-      overflow: unset;
-      align-items: flex-start; } }
+      height: 100vh; } }
 
 .overlay__container {
   position: relative;
   max-width: 40rem;
   width: 90%;
-  height: 100vh; }
+  height: 100vh;
+  display: none; }
   @media screen and (max-width: 992px) {
     .overlay__container {
       flex: 1;
-      display: none;
       height: 100%;
       width: 100vw;
       background-color: white; } }
 
 .aside__box {
   max-width: 2.5rem;
-  width: 5vw; }
+  width: 5vw;
+  height: 100vh; }
   @media screen and (max-width: 992px) {
     .aside__box {
       width: 100vw;
+      height: unset;
       max-width: unset;
       background-color: white;
       z-index: 2500; } }
