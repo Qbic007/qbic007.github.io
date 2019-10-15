@@ -33,14 +33,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio" />
       <recent name="$PROJECT_DIR$/ss_test" />
       <recent name="C:\OSPanel\domains\qbic007.github.io\ss_test" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
-      <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\sprite" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\qbic007.github.io\burgers\img\icons" />
     </key>
   </component>
@@ -77,7 +77,8 @@
       <workItem from="1569572569677" duration="1204000" />
       <workItem from="1569924828424" duration="604000" />
       <workItem from="1571039056853" duration="326000" />
-      <workItem from="1571039400050" duration="608000" />
+      <workItem from="1571039400050" duration="1938000" />
+      <workItem from="1571130099515" duration="599000" />
     </task>
     <servers />
   </component>
